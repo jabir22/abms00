@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard</title>
+  <style>
+    /* Reset & base */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7fa;
+      color: #333;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-weight: 700;
+      font-size: 28px;
+      color: #4a90e2;
+    }
+    .logout-btn {
+      padding: 10px 20px;
+      background-color: #ff4d4f;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+    .logout-btn:hover {
+      background-color: #d9363e;
+    }
+
+    /* Cards container */
+    .cards {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 200px;
+      min-width: 200px;
+    }
+    .card h3 {
+      margin-bottom: 15px;
+      color: #4a90e2;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .card .number {
+      font-size: 36px;
+      font-weight: 700;
+      color: #333;
+    }
+
+    /* Report table */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #4a90e2;
+      color: white;
+      font-weight: 600;
+    }
+    tbody tr:hover {
+      background-color: #f1f7ff;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: auto;
+      padding: 10px;
+      text-align: center;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dashboard</h1>
+    <a href="/logout" class="logout-btn">Logout</a>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Total Users</h3>
+      <div class="number" id="totalUsers">--</div>
+    </div>
+    <div class="card">
+      <h3>Active Sessions</h3>
+      <div class="number" id="activeSessions">--</div>
+    </div>
+    <div class="card">
+      <h3>New Signups</h3>
+      <div class="number" id="newSignups">--</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="margin-bottom: 15px; color:#4a90e2;">Recent User Activities</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Action</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody id="activityTableBody">
+        <!-- Rows added by JS -->
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Company. All rights reserved.
+  </footer>
+
+  <script>
+    // Dummy data for stats
+    const stats = {
+      totalUsers: 1200,
+      activeSessions: 87,
+      newSignups: 14,
+      recentActivities: [
+        { user: 'admin', action: 'Logged in', time: '10 mins ago' },
+        { user: 'johndoe', action: 'Signed up', time: '30 mins ago' },
+        { user: 'janedoe', action: 'Logged out', time: '1 hour ago' },
+        { user: 'alice', action: 'Updated profile', time: '2 hours ago' },
+        { user: 'bob', action: 'Deleted a post', time: '3 hours ago' }
+      ]
+    };
+
+    // Set numbers in cards
+    document.getElementById('totalUsers').textContent = stats.totalUsers;
+    document.getElementById('activeSessions').textContent = stats.activeSessions;
+    document.getElementById('newSignups').textContent = stats.newSignups;
+
+    // Populate activity table
+    const tbody = document.getElementById('activityTableBody');
+    stats.recentActivities.forEach(activity => {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${activity.user}</td>
+        <td>${activity.action}</td>
+        <td>${activity.time}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  </script>
+</body>
+</html>

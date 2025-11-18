@@ -1,0 +1,135 @@
+</div>
+<!-- End of Main Content -->
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer-section">
+    <div class="footer-container">
+        <!-- Footer Top Section -->
+        <div class="footer-content">
+            <!-- Company Info -->
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <i class="fas fa-cube"></i>
+                    <h3>ABMS</h3>
+                </div>
+                <p class="footer-description">Advanced Business Management System - আপনার ব্যবসায়িক সাফল্যের জন্য
+                    ডিজাইন করা আধুনিক সমাধান।</p>
+                <div class="footer-social">
+                    <a href="#" title="Facebook" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Twitter" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="LinkedIn" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="Email" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column">
+                <h4 class="footer-title"><i class="fas fa-link"></i> দ্রুত লিঙ্ক</h4>
+                <ul class="footer-links">
+                    <li><a href="/dashboard"><i class="fas fa-home"></i> ড্যাশবোর্ড</a></li>
+                    <li><a href="/profile"><i class="fas fa-user"></i> প্রোফাইল</a></li>
+                    <li><a href="/accounts"><i class="fas fa-wallet"></i> হিসাব</a></li>
+                    <li><a href="/sales"><i class="fas fa-shopping-cart"></i> বিক্রয়</a></li>
+                </ul>
+            </div>
+
+            <!-- Features -->
+            <div class="footer-column">
+                <h4 class="footer-title"><i class="fas fa-star"></i> বৈশিষ্ট্য</h4>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-chart-line"></i> উন্নত প্রতিবেদন</a></li>
+                    <li><a href="#"><i class="fas fa-lock"></i> সুরক্ষিত সিস্টেম</a></li>
+                    <li><a href="#"><i class="fas fa-sync"></i> রিয়েল-টাইম সিঙ্ক</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> মাল্টি-ব্যবহারকারী</a></li>
+                </ul>
+            </div>
+
+            <!-- Support -->
+            <div class="footer-column">
+                <h4 class="footer-title"><i class="fas fa-headset"></i> সহায়তা</h4>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-question-circle"></i> সাহায্য কেন্দ্র</a></li>
+                    <li><a href="#"><i class="fas fa-file-contract"></i> শর্তাবলী</a></li>
+                    <li><a href="#"><i class="fas fa-shield-alt"></i> গোপনীয়তা নীতি</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> যোগাযোগ করুন</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-column">
+                <h4 class="footer-title"><i class="fas fa-bell"></i> নিউজলেটার</h4>
+                <p class="footer-description">সর্বশেষ আপডেট পেতে সাবস্ক্রাইব করুন।</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="আপনার ইমেইল..." class="newsletter-input">
+                    <button class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+                <p class="newsletter-info">আমরা আপনার গোপনীয়তা রক্ষা করি।</p>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p class="copyright">© <span id="year"></span> ABMS. সর্বাধিকার সংরক্ষিত। | ডিজাইন করেছেন: <strong>আপনার
+                        প্রযুক্তি দল</strong></p>
+                <div class="footer-badges">
+                    <span class="badge"><i class="fas fa-lock"></i> SSL সুরক্ষিত</span>
+                    <span class="badge"><i class="fas fa-check-circle"></i> ডেটা সুরক্ষা</span>
+                    <span class="badge"><i class="fas fa-globe"></i> বৈশ্বিক মান</span>
+                </div>
+            </div>
+            <div class="footer-scroll-top">
+                <button id="scrollTopBtn" class="scroll-top-btn" onclick="scrollToTop()" title="উপরে যান">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Year update for footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll to top function
+    function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Show/hide scroll to top button
+    window.addEventListener('scroll', function () {
+        const scrollBtn = document.getElementById('scrollTopBtn');
+        if (window.pageYOffset > 300) {
+            scrollBtn.style.display = 'block';
+        } else {
+            scrollBtn.style.display = 'none';
+        }
+    });
+</script>
+
+<% if (typeof scripts !=='undefined' && scripts.length> 0) { %>
+    <% scripts.forEach(function(script) { %>
+        <script src="<%= script %>"></script>
+        <% }); %>
+            <% } %>
+
+                <!-- JS Files -->
+                <script src="/JS/app.js"></script>
+                <script src="/js/logout.js"></script>
+                <% if (typeof page !=='undefined' ) { %>
+                    <% if (page==='dashboard' ) { %>
+                        <script src="/dashboard/dashboard.js"></script>
+                        <% } %>
+                            <% if (page==='profile' ) { %>
+                                <script src="/profile/profile.js"></script>
+                                <% } %>
+                                    <% if (page==='roles' ) { %>
+                                        <script src="/js/admin/roles.js"></script>
+                                        <% } %>
+                                            <% if (page==='users' ) { %>
+                                                <script src="/js/admin/users.js"></script>
+                                                <% } %>
+                                                    <% } %>
+                                                        </body>
+
+                                                        </html>

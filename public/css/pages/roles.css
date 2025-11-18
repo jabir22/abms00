@@ -1,0 +1,352 @@
+/* ================= MAIN CONTENT ================= */
+.main-content {
+  flex: 1;
+  padding: 25px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+/* ================= ROLES CONTAINER ================= */
+.roles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header */
+.roles-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.roles-title {
+  font-size: 22px;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.roles-header .btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ================= HERO SECTION ================= */
+.roles-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.hero-left {
+  max-width: 70%;
+}
+.hero-title {
+  font-size: 20px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+.hero-sub {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+.hero-stats {
+  display: flex;
+  gap: 25px;
+}
+.stat {
+  text-align: center;
+}
+.stat-number {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1abc9c;
+}
+.stat-label {
+  font-size: 13px;
+  color: #555;
+}
+.hero-right .hero-btn {
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.hero-right .hero-btn:hover {
+  background: #16a085;
+}
+
+/* ================= CARD ================= */
+.modern-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.modern-card-body {
+  padding: 20px;
+}
+.roles-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.roles-search input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 250px;
+  font-size: 14px;
+}
+.roles-actions .btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* ================= TABLE ================= */
+.table-wrap {
+  overflow-x: auto;
+}
+.modern-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.modern-table th,
+.modern-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+.modern-table th {
+  background: #f0f3f5;
+  text-align: left;
+  color: #2c3e50;
+}
+.modern-table tr:hover {
+  background: #f9f9f9;
+}
+
+/* ================= MODALS ================= */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1000;
+
+  /* Centering */
+  justify-content: center;
+  align-items: center;
+
+  /* Allow scrolling if modal is taller than viewport */
+  overflow-y: auto;
+  padding: 20px;
+}
+
+/* Show modal when .show class is added */
+.modal.show {
+  display: flex;
+}
+
+.modal-content {
+  background: linear-gradient(90deg, #2c3e50, #1a252f);
+  border-radius: 10px;
+  width: 75vw;
+  max-width: 90%;
+  max-height: 90vh; /* limit height to viewport */
+  overflow-y: auto; /* scroll inside modal if content overflows */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  animation: fadeIn 0.3s ease;
+  
+}
+
+/* Header & Footer */
+.modal-header,
+.modal-footer {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-footer {
+  border-top: 1px solid #eee;
+}
+.modal-title {
+  font-size: 18px;
+  color: #2c3e50;
+}
+.modal-body {
+  padding: 16px;
+}
+
+/* Close Button */
+.close,
+.close-btn {
+  cursor: pointer;
+  font-size: 20px;
+  color: #999;
+  transition: color 0.3s;
+  background: none;
+  border: none;
+}
+.close:hover,
+.close-btn:hover {
+  color: #e74c3c;
+}
+
+/* ================= FORM ================= */
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #efff93;
+}
+.form-group .required {
+  color: #e74c3c;
+}
+.form-control,
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Permissions Grid */
+.permissions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  gap: 10px;
+
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+.btn-primary {
+  background: #1abc9c;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #16a085;
+}
+.btn-secondary {
+  background: #bdc3c7;
+  color: #2c3e50;
+}
+.btn-secondary:hover {
+  background: #95a5a6;
+}
+.btn-danger {
+  background: #e74c3c;
+  color: #fff;
+}
+.btn-danger:hover {
+  background: #c0392b;
+}
+.btn-outline {
+  border: 1px solid #1abc9c;
+  color: #1abc9c;
+  background: transparent;
+}
+.btn-outline:hover {
+  background: #1abc9c;
+  color: #fff;
+}
+
+/* ================= ANIMATIONS ================= */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .roles-hero {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .hero-left {
+    max-width: 100%;
+  }
+  .roles-top {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .roles-search input {
+    width: 100%;
+  }
+  .modal-content {
+    width: 95%;
+    max-height: 85vh;
+  }
+}
+.odd{ background-color: #f9f9f9; }
+.even{ background-color: #ffffff; }
+
+
+.permission-group{
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+ 
+}
+.permission-items{
+  margin-top: 8px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 6px;
+}
+.permission-item{
+  display: flex;
+  align-items: center;
+}
+.permission-item label{
+  font-size: 14px;
+  color: #fff09b;
+ 
+}
+.permission-item input{
+  margin-right: 6px;
+  width: 16px;
+}
+.permission-group-title{
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffeb78;
+  margin-bottom: 6px;
+}
+.permission-search{
+  margin-bottom: 15px;
+}
+.permission-search input{
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}

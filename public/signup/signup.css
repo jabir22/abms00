@@ -1,0 +1,145 @@
+/* === General Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* === Body Styling === */
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* সুন্দর গ্র্যাডিয়েন্ট ব্যাকগ্রাউন্ড */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 1s ease-in;
+}
+
+/* === Container === */
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+/* === Form Card === */
+.form-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  animation: slideUp 0.6s ease;
+  transition: transform 0.3s ease;
+}
+
+.form-box:hover {
+  transform: scale(1.02); /* হোভার করলে হালকা zoom effect */
+}
+
+/* === Title === */
+.form-box h2 {
+  color: #1e3c72;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* === Input Styling === */
+.form-box input {
+  padding: 12px 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-box input:focus {
+  border-color: #2a5298;
+  box-shadow: 0 0 5px rgba(42, 82, 152, 0.3);
+  outline: none;
+}
+
+/* === Button Styling === */
+.form-box button {
+  padding: 12px;
+  background: linear-gradient(to right, #ff7eb3, #ff758c);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.form-box button:hover {
+  background: linear-gradient(to right, #ff4b9a, #ff5e7e);
+  transform: translateY(-2px);
+}
+
+/* === Link Styling === */
+.form-box p a {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  color: #1e3c72;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.form-box p a:hover {
+  text-decoration: underline;
+  color: #2a5298;
+}
+
+/* === Error Message === */
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* === Animations === */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* === Responsive === */
+@media (max-width: 480px) {
+  .form-box {
+    padding: 30px 20px;
+  }
+
+  .form-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-box input,
+  .form-box button {
+    font-size: 0.95rem;
+  }
+}

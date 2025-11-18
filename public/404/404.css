@@ -1,0 +1,93 @@
+body {
+  background: radial-gradient(circle at top, #141E30, #243B55);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.glitch {
+  font-size: 10rem;
+  position: relative;
+  color: #ff005e;
+  animation: flicker 1.5s infinite;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #00fff9;
+  background: transparent;
+  clip: rect(0, 900px, 0, 0);
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 #00fff9;
+  animation: glitchTop 1s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 #ff005e;
+  animation: glitchBottom 1.5s infinite linear alternate-reverse;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #00fff9;
+  color: #111;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff005e;
+  color: white;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes glitchTop {
+  0% { clip: rect(0, 9999px, 0, 0); }
+  100% { clip: rect(10px, 9999px, 100px, 0); }
+}
+
+@keyframes glitchBottom {
+  0% { clip: rect(0, 9999px, 0, 0); }
+  100% { clip: rect(60px, 9999px, 120px, 0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.timer {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #bbb;
+}

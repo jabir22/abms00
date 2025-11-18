@@ -1,0 +1,8 @@
+CREATE TABLE activity_logs (
+  id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  user_id BIGINT NOT NULL,
+  action VARCHAR(255),
+  metadata JSON,
+  createdat TIMESTAMP DEFAULT CURRENTTIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);

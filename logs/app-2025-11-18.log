@@ -1,0 +1,1151 @@
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:07:19.461Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T18:07:19.462Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:07:19.463Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:07:19.540Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:07:19.598Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:07:19.598Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:13:01.854Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T18:13:01.856Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:13:01.856Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:13:01.877Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:13:01.938Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:13:01.939Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:15:44.903Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T18:15:44.904Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:15:44.905Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:15:44.920Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:15:44.980Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:15:44.981Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:16:37.152Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T18:16:37.156Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:16:37.156Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:16:37.166Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:16:37.241Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:16:37.242Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:21:39.757Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T18:21:39.760Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:21:39.761Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:21:39.768Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:21:39.830Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:21:39.830Z","userId":11}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T18:24:48.500Z","userId":11}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T18:24:48.575Z","user":11}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T18:25:26.171Z","userId":11}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T18:25:26.178Z","user":11}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T18:27:45.367Z","userId":11}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T18:27:45.369Z","user":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:36:50.722Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T18:36:50.722Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:36:50.723Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:36:50.724Z","userId":10}
+{"level":"warn","message":"Wrong password attempt","phone":"01973832293","timestamp":"2025-11-17T18:36:50.784Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:36:55.265Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T18:36:55.265Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:36:55.265Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:36:55.267Z","userId":10}
+{"level":"warn","message":"Wrong password attempt","phone":"01973832293","timestamp":"2025-11-17T18:36:55.323Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:37:01.271Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T18:37:01.272Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:37:01.272Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:37:01.273Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:37:01.345Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:37:01.359Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:51:59.835Z"}
+{"level":"info","message":"Login data received","phone":"jabirjames542@gmail.com","timestamp":"2025-11-17T18:51:59.835Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:51:59.835Z"}
+{"level":"warn","message":"User not found","phone":"jabirjames542@gmail.com","timestamp":"2025-11-17T18:51:59.837Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:52:04.033Z"}
+{"level":"info","message":"Login data received","phone":"01973832207","timestamp":"2025-11-17T18:52:04.033Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:52:04.034Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:52:04.035Z","userId":13}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:52:04.093Z","userId":13}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:52:04.094Z","userId":13}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T18:52:22.159Z","userId":13}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T18:52:22.166Z","user":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:56:04.896Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T18:56:04.897Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:56:04.897Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:56:04.899Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:56:04.960Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:56:04.960Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T18:56:34.735Z","userId":13}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T18:56:34.740Z","user":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:58:47.514Z"}
+{"level":"info","message":"Login data received","phone":"01973832207","timestamp":"2025-11-17T18:58:47.515Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:58:47.515Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:58:47.516Z","userId":13}
+{"level":"warn","message":"Wrong password attempt","phone":"01973832207","timestamp":"2025-11-17T18:58:47.582Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:58:51.912Z"}
+{"level":"info","message":"Login data received","phone":"01973832207","timestamp":"2025-11-17T18:58:51.912Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:58:51.912Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:58:51.913Z","userId":13}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:58:51.972Z","userId":13}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:58:51.972Z","userId":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T18:59:52.787Z"}
+{"level":"info","message":"Login data received","phone":"01973832207","timestamp":"2025-11-17T18:59:52.788Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T18:59:52.788Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T18:59:52.797Z","userId":13}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T18:59:52.859Z","userId":13}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T18:59:52.859Z","userId":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:01:18.775Z"}
+{"level":"info","message":"Login data received","phone":"01973832207","timestamp":"2025-11-17T19:01:18.776Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:01:18.776Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:01:18.778Z","userId":13}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:01:18.834Z","userId":13}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:01:18.834Z","userId":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:01:24.406Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:01:24.407Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:01:24.407Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:01:24.409Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:01:24.465Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:01:24.466Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:04:10.376Z"}
+{"level":"info","message":"Login data received","phone":"01973832207","timestamp":"2025-11-17T19:04:10.377Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:04:10.378Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:04:10.386Z","userId":13}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:04:10.443Z","userId":13}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:04:10.443Z","userId":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:05:11.713Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:05:11.713Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:05:11.714Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:05:11.718Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:05:11.777Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:05:11.777Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:08:50.315Z","userId":13}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T19:08:50.318Z","user":13}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:09:32.953Z","userId":13}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T19:09:32.954Z","user":13}
+{"level":"info","message":"getAreaById - start","params":{"id":"assign"},"timestamp":"2025-11-17T19:09:33.318Z","userId":13}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","params":{"id":"assign"},"timestamp":"2025-11-17T19:09:33.319Z","user":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:12:50.667Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:12:50.669Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:12:50.669Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:12:50.678Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:12:50.739Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:12:50.748Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:13:32.955Z","userId":10}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T19:13:32.959Z","user":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:15:43.677Z","userId":10}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T19:15:43.680Z","user":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:15:48.504Z","userId":10}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T19:15:48.509Z","user":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:16:35.939Z","userId":10}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T19:16:35.942Z","user":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:27:07.814Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:27:07.815Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:27:07.816Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:27:07.822Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:27:07.881Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:27:07.881Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:27:10.211Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:27:10.283Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:27:10.284Z","userId":10}
+{"error":{},"level":"info","message":"Area fetch error: Area fetch error: Unknown column 'u_created.name' in 'field list'","query":{},"timestamp":"2025-11-17T19:27:10.290Z","user":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:28:53.800Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:28:53.802Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:28:53.802Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:28:53.811Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:28:53.871Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:28:53.871Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:28:55.755Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:28:55.820Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:28:55.821Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:28:55.841Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T19:29:01.581Z","userId":10}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T19:29:10.297Z","userId":10}
+{"body":{"_csrf":"TjJnsuOW-NfUBaCt6pi1lnQgaWUzOOutkLak","code":"72325","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghfgh","region":"South-West"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T19:29:10.301Z","userId":10}
+{"level":"info","message":"User 10 created area: fghfgh (72325)","timestamp":"2025-11-17T19:29:10.323Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:29:11.846Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:29:11.918Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:29:11.918Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:29:11.930Z"}
+{"level":"info","message":"areas.api.update - attempt","params":{"id":"1"},"role_id":25,"timestamp":"2025-11-17T19:29:21.275Z","userId":10}
+{"body":{"_csrf":"gunyaEq8-zYbd-ZHkYEtCakLaf_8iuuz3CnA","code":"7232444","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghfgh","region":"South-West"},"level":"info","message":"updateArea - start","params":{"id":"1"},"timestamp":"2025-11-17T19:29:21.276Z","userId":10}
+{"level":"info","message":"User 10 updated area 1","timestamp":"2025-11-17T19:29:21.288Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:29:21.297Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:29:21.297Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:29:21.300Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:29:23.435Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:29:23.508Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:29:23.508Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:29:23.515Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-17T19:29:25.515Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:29:25.575Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:29:25.575Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:29:25.577Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"1"},"timestamp":"2025-11-17T19:29:27.786Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 1","timestamp":"2025-11-17T19:29:27.790Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"1"},"timestamp":"2025-11-17T19:29:27.795Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 1","timestamp":"2025-11-17T19:29:27.798Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"1"},"timestamp":"2025-11-17T19:29:27.801Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 1","timestamp":"2025-11-17T19:29:27.803Z"}
+{"body":{"_csrf":"sLxk8CQM-3AoN8607SGKmzwhCoJ0E0ChqvtI","areaId":1,"userId":13},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-17T19:29:31.238Z","userId":10}
+{"body":{"_csrf":"sLxk8CQM-3AoN8607SGKmzwhCoJ0E0ChqvtI","areaId":1,"userId":13},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-17T19:29:31.240Z","userId":10}
+{"level":"info","message":"User 10 assigned user 13 to area 1","timestamp":"2025-11-17T19:29:31.246Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"1"},"timestamp":"2025-11-17T19:29:32.745Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 1","timestamp":"2025-11-17T19:29:32.748Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"1"},"timestamp":"2025-11-17T19:29:32.752Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 1","timestamp":"2025-11-17T19:29:32.754Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"1"},"timestamp":"2025-11-17T19:29:32.758Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 1","timestamp":"2025-11-17T19:29:32.763Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:29:39.579Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:29:39.644Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:29:39.644Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:29:39.646Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:31:52.254Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:31:52.328Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:31:52.329Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:31:52.338Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:33:51.620Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:33:51.691Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:33:51.692Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:33:51.694Z"}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T19:34:28.885Z","userId":10}
+{"body":{"_csrf":"qRNuZXdq-mrCok2Ue_uzgDPubJJw-7GRbth8","code":"fghjghj","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghg","region":"North-East"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T19:34:28.886Z","userId":10}
+{"level":"info","message":"User 10 created area: fghg (fghjghj)","timestamp":"2025-11-17T19:34:28.891Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:34:28.898Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:34:28.900Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:34:28.902Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:34:46.181Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:34:46.183Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:34:46.183Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:34:46.190Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:34:46.250Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:34:46.250Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:34:55.174Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:34:55.313Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:34:55.314Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:34:55.329Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:37:24.905Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:37:24.906Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:37:24.907Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:37:24.916Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:37:24.974Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:37:24.974Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:37:29.006Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:37:29.138Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:37:29.139Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:37:29.152Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:38:36.336Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:38:36.338Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:38:36.338Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:38:36.344Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:38:36.405Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:38:36.405Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:38:45.611Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:38:45.740Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:38:45.742Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:38:45.753Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:39:10.759Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:39:10.761Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:39:10.761Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:39:10.766Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:39:10.825Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:39:10.825Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:39:14.131Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:39:14.276Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:39:14.276Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:39:14.282Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:39:35.883Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:39:36.026Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:39:36.027Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:39:36.038Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:40:29.856Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:40:29.858Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:40:29.858Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:40:29.877Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:40:29.936Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:40:29.936Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:40:32.821Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:40:32.947Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:40:32.948Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:40:32.957Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:41:22.287Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:41:22.289Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:41:22.289Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:41:22.293Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:41:22.350Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:41:22.350Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":29,"timestamp":"2025-11-17T19:45:29.552Z","userId":14}
+{"level":"info","message":"areas.api.getAll - called","role_id":29,"timestamp":"2025-11-17T19:45:30.189Z","userId":14}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:45:30.190Z","userId":14}
+{"level":"info","message":"User 14 fetched 2 areas","timestamp":"2025-11-17T19:45:30.200Z"}
+{"level":"info","message":"areas.add - render","role_id":29,"timestamp":"2025-11-17T19:46:17.634Z","userId":14}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:50:12.247Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:50:12.249Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:50:12.249Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:50:12.260Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:50:12.319Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:50:12.319Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:50:19.392Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:50:20.378Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:50:20.378Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:50:20.385Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T19:50:27.330Z","userId":10}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T19:50:40.845Z","userId":10}
+{"body":{"_csrf":"NwfQikHp-e7jVvAUsovDpXTgFJlwztD4w3SY","code":"4456","description_bn":"","description_en":"","name_bn":"James Jabir","name_en":"James Jabir","region":"North-East"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T19:50:40.846Z","userId":10}
+{"level":"info","message":"User 10 created area: James Jabir (4456)","timestamp":"2025-11-17T19:50:40.855Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:50:42.699Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:50:43.713Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:50:43.714Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:50:43.717Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:50:47.568Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:50:48.350Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:50:48.350Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:50:48.352Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:52:33.993Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:52:33.995Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:52:33.995Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:52:34.009Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:52:34.075Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:52:34.076Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:52:44.823Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:52:45.056Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:52:45.057Z","userId":10}
+{"level":"info","message":"User 10 fetched 3 areas","timestamp":"2025-11-17T19:52:45.088Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:53:40.643Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:53:40.923Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:53:40.923Z","userId":10}
+{"level":"info","message":"User 10 fetched 3 areas","timestamp":"2025-11-17T19:53:40.930Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:55:47.083Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:55:47.253Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:55:47.253Z","userId":10}
+{"level":"info","message":"User 10 fetched 3 areas","timestamp":"2025-11-17T19:55:47.279Z"}
+{"level":"info","message":"areas.api.delete - attempt","params":{"id":"1"},"role_id":25,"timestamp":"2025-11-17T19:55:54.063Z","userId":10}
+{"level":"info","message":"deleteArea - start","params":{"id":"1"},"timestamp":"2025-11-17T19:55:54.066Z","userId":10}
+{"level":"info","message":"User 10 deleted area 1","timestamp":"2025-11-17T19:55:54.078Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:55:54.083Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:55:54.084Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:55:54.085Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:55:56.547Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:55:56.741Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:55:56.741Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:55:56.746Z"}
+{"body":{"_csrf":"LHVqYcIB-BiJAzTbpLV3Msbh4Xlq04nJ-LPU","areaId":3,"userId":13},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-17T19:56:11.741Z","userId":10}
+{"body":{"_csrf":"LHVqYcIB-BiJAzTbpLV3Msbh4Xlq04nJ-LPU","areaId":3,"userId":13},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-17T19:56:11.742Z","userId":10}
+{"level":"info","message":"User 10 assigned user 13 to area 3","timestamp":"2025-11-17T19:56:11.748Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:56:11.756Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:56:11.757Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:56:11.760Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:56:13.642Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:56:13.791Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:56:13.791Z","userId":10}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-17T19:56:13.793Z"}
+{"level":"info","message":"areas.api.delete - attempt","params":{"id":"3"},"role_id":25,"timestamp":"2025-11-17T19:56:21.124Z","userId":10}
+{"level":"info","message":"deleteArea - start","params":{"id":"3"},"timestamp":"2025-11-17T19:56:21.125Z","userId":10}
+{"level":"info","message":"User 10 deleted area 3","timestamp":"2025-11-17T19:56:21.131Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:56:21.142Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:56:21.143Z","userId":10}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T19:56:21.144Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:56:23.585Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:56:38.518Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:56:38.519Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:56:38.520Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:56:38.524Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:56:38.584Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:56:38.584Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:56:40.954Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:56:41.100Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:56:41.102Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:56:41.115Z"}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T19:57:01.536Z","userId":10}
+{"body":{"_csrf":"ooJrOSlS-oOt9EU9geUtU6YUO4_fquNdaQRo","code":"72325","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghg","region":"Central"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T19:57:01.538Z","userId":10}
+{"level":"info","message":"User 10 created area: fghg (72325)","timestamp":"2025-11-17T19:57:01.546Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:57:01.554Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:57:01.554Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:57:01.555Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:57:03.167Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:57:03.314Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:57:03.315Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:57:03.328Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:58:22.951Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:58:22.953Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:58:22.953Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:58:22.958Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:58:23.019Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:58:23.020Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:58:25.050Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:58:25.199Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:58:25.200Z","userId":10}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:58:25.219Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T19:58:51.052Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T19:58:51.054Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T19:58:51.054Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T19:58:51.058Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T19:58:51.116Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T19:58:51.116Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:58:53.484Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:58:53.635Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:58:53.636Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T19:58:53.637Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:58:53.665Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:59:15.178Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:59:15.311Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:59:15.312Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T19:59:15.312Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:59:15.317Z"}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T19:59:29.600Z","userId":10}
+{"body":{"_csrf":"hNdvW3Kd-QjfRry2UDjOMMr3ZrRU0S_d84fg","code":"567567","description_bn":"hjkhjk","description_en":"","name_bn":"পআব্‌ব","name_en":"fghfgh","region":"North-East"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T19:59:29.602Z","userId":10}
+{"level":"info","message":"User 10 created area: fghfgh (567567)","timestamp":"2025-11-17T19:59:29.611Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:59:29.620Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:59:29.620Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T19:59:29.621Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:59:29.624Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T19:59:31.853Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:59:31.995Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:59:31.995Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T19:59:31.996Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:59:31.999Z"}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T19:59:45.543Z","userId":10}
+{"body":{"_csrf":"YGhRoB0g-qqw89XYcW8r7uPcSkapipNGeYEs","code":"33569","description_bn":"","description_en":"","name_bn":"tyutyu","name_en":"tyutyu","region":"North-East"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T19:59:45.544Z","userId":10}
+{"level":"info","message":"User 10 created area: tyutyu (33569)","timestamp":"2025-11-17T19:59:45.548Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T19:59:45.555Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T19:59:45.556Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T19:59:45.556Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T19:59:45.558Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:00:31.831Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:00:31.998Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:00:31.998Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:00:31.999Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T20:00:32.006Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:00:51.285Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:00:51.288Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:00:51.288Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:00:51.294Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:00:51.353Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:00:51.354Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:01:01.342Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:01:01.599Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:01:01.602Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:01:01.607Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T20:01:01.679Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:01:24.282Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:01:24.432Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:01:24.472Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:01:24.472Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T20:01:24.475Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:01:25.064Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:01:25.185Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:01:25.186Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:01:25.186Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T20:01:25.192Z"}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T20:01:35.589Z","userId":10}
+{"body":{"_csrf":"xT7goeAJ-f2RfSaVlJTvvnI5FL2LitlTUTiE","code":"52984","description_bn":"","description_en":"","name_bn":"tyutyu","name_en":"fghg","region":"East"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T20:01:35.592Z","userId":10}
+{"level":"info","message":"User 10 created area: fghg (52984)","timestamp":"2025-11-17T20:01:35.635Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:01:35.644Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:01:35.644Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:01:35.644Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T20:01:35.647Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:01:37.954Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:01:38.090Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:01:38.090Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:01:38.091Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T20:01:38.093Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:03:25.988Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:03:25.989Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:03:25.989Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:03:25.996Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:03:26.054Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:03:26.055Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:03:29.304Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:03:29.432Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:03:29.433Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:03:29.433Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 0 areas","timestamp":"2025-11-17T20:03:29.444Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:03:33.378Z","userId":10}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-17T20:03:41.076Z","userId":10}
+{"body":{"_csrf":"A1PZZFpH-DZHVvZX6sqPPWqM0_e-aquE5fPk","code":"34455","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghg","region":"North-East"},"level":"info","message":"createArea - start","timestamp":"2025-11-17T20:03:41.078Z","userId":10}
+{"level":"info","message":"User 10 created area: fghg (34455)","timestamp":"2025-11-17T20:03:41.086Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:03:42.616Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:03:42.757Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:03:42.758Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:03:42.759Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:03:42.764Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:04:16.109Z"}
+{"level":"info","message":"Login data received","phone":"01973832297","timestamp":"2025-11-17T20:04:16.109Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:04:16.109Z"}
+{"level":"warn","message":"User not found","phone":"01973832297","timestamp":"2025-11-17T20:04:16.110Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:04:19.169Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T20:04:19.169Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:04:19.170Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:04:19.171Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:04:19.228Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:04:19.228Z","userId":11}
+{"level":"info","message":"areas.list - render","role_id":26,"timestamp":"2025-11-17T20:04:47.456Z","userId":11}
+{"level":"info","message":"areas.api.getAll - called","role_id":26,"timestamp":"2025-11-17T20:04:47.597Z","userId":11}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:04:47.599Z","userId":11}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":15},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:04:47.600Z","user":{"id":11,"phone":"01973832210","role_id":26,"tenant_id":15}}
+{"level":"info","message":"User 11 fetched 0 areas","timestamp":"2025-11-17T20:04:47.612Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:04:54.923Z"}
+{"level":"info","message":"Login data received","phone":"01973832207","timestamp":"2025-11-17T20:04:54.923Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:04:54.924Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:04:54.925Z","userId":13}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:04:54.982Z","userId":13}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:04:54.982Z","userId":13}
+{"level":"info","message":"areas.list - render","role_id":26,"timestamp":"2025-11-17T20:05:00.226Z","userId":11}
+{"level":"info","message":"areas.api.getAll - called","role_id":26,"timestamp":"2025-11-17T20:05:00.406Z","userId":11}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:05:00.406Z","userId":11}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":15},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:05:00.406Z","user":{"id":11,"phone":"01973832210","role_id":26,"tenant_id":15}}
+{"level":"info","message":"User 11 fetched 0 areas","timestamp":"2025-11-17T20:05:00.413Z"}
+{"level":"info","message":"areas.list - render","role_id":28,"timestamp":"2025-11-17T20:05:21.434Z","userId":13}
+{"level":"info","message":"areas.api.getAll - called","role_id":28,"timestamp":"2025-11-17T20:05:22.021Z","userId":13}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:05:22.021Z","userId":13}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:05:22.022Z","user":{"id":13,"phone":"01973832207","role_id":28,"tenant_id":14}}
+{"level":"info","message":"User 13 fetched 1 areas","timestamp":"2025-11-17T20:05:22.023Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":28,"timestamp":"2025-11-17T20:05:32.086Z","userId":13}
+{"level":"info","message":"areas.api.getAll - called","role_id":28,"timestamp":"2025-11-17T20:05:32.876Z","userId":13}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:05:32.876Z","userId":13}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:05:32.877Z","user":{"id":13,"phone":"01973832207","role_id":28,"tenant_id":14}}
+{"level":"info","message":"User 13 fetched 1 areas","timestamp":"2025-11-17T20:05:32.878Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:05:39.383Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:05:39.384Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:05:39.384Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:05:39.385Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:05:39.443Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:05:39.444Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:05:45.804Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:05:47.366Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:05:47.366Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:05:47.366Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:05:47.369Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-17T20:05:52.751Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:05:53.321Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:05:53.322Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:05:53.322Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:05:53.323Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:05:55.276Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:05:55.281Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:05:55.465Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:05:55.467Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:05:55.640Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:05:55.641Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":28,"timestamp":"2025-11-17T20:05:57.872Z","userId":13}
+{"level":"info","message":"areas.api.getAll - called","role_id":28,"timestamp":"2025-11-17T20:05:58.578Z","userId":13}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:05:58.579Z","userId":13}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:05:58.579Z","user":{"id":13,"phone":"01973832207","role_id":28,"tenant_id":14}}
+{"level":"info","message":"User 13 fetched 1 areas","timestamp":"2025-11-17T20:05:58.581Z"}
+{"body":{"_csrf":"4Mjvxzpw-KnxsxOl5jM4pvFJV6rmBraOksgc","areaId":8,"userId":13},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-17T20:06:18.449Z","userId":10}
+{"body":{"_csrf":"4Mjvxzpw-KnxsxOl5jM4pvFJV6rmBraOksgc","areaId":8,"userId":13},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-17T20:06:18.451Z","userId":10}
+{"level":"info","message":"User 10 assigned user 13 to area 8","timestamp":"2025-11-17T20:06:18.457Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:20.075Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:06:20.077Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:20.362Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:06:20.364Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:20.604Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:06:20.606Z"}
+{"body":{"_csrf":"4Mjvxzpw-KnxsxOl5jM4pvFJV6rmBraOksgc","areaId":8,"userId":13},"level":"info","message":"areas.api.removeUser - attempt","role_id":25,"timestamp":"2025-11-17T20:06:24.252Z","userId":10}
+{"body":{"_csrf":"4Mjvxzpw-KnxsxOl5jM4pvFJV6rmBraOksgc","areaId":8,"userId":13},"level":"info","message":"removeUserFromArea - start","timestamp":"2025-11-17T20:06:24.256Z","userId":10}
+{"level":"info","message":"User 10 removed user 13 from area 8","timestamp":"2025-11-17T20:06:24.262Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:25.573Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:06:25.575Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:25.808Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:06:25.810Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:26.314Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:06:26.316Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-17T20:06:27.209Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:06:28.508Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:06:28.508Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:06:28.509Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:06:28.510Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:56.508Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:06:56.510Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:56.678Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:06:56.679Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:56.849Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:06:56.850Z"}
+{"body":{"_csrf":"gYsyuwrm-RHB3_vCkH5joqeNPKpKldoQg7go","areaId":8,"userId":13},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-17T20:06:58.236Z","userId":10}
+{"body":{"_csrf":"gYsyuwrm-RHB3_vCkH5joqeNPKpKldoQg7go","areaId":8,"userId":13},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-17T20:06:58.238Z","userId":10}
+{"level":"info","message":"User 10 assigned user 13 to area 8","timestamp":"2025-11-17T20:06:58.244Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:59.588Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:06:59.590Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:59.760Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:06:59.762Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:06:59.931Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:06:59.932Z"}
+{"body":{"_csrf":"gYsyuwrm-RHB3_vCkH5joqeNPKpKldoQg7go","areaId":8,"userId":13},"level":"info","message":"areas.api.removeUser - attempt","role_id":25,"timestamp":"2025-11-17T20:07:08.167Z","userId":10}
+{"body":{"_csrf":"gYsyuwrm-RHB3_vCkH5joqeNPKpKldoQg7go","areaId":8,"userId":13},"level":"info","message":"removeUserFromArea - start","timestamp":"2025-11-17T20:07:08.168Z","userId":10}
+{"level":"info","message":"User 10 removed user 13 from area 8","timestamp":"2025-11-17T20:07:08.173Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:07:09.458Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:07:09.460Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:07:09.630Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:07:09.632Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:07:09.799Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-17T20:07:09.800Z"}
+{"body":{"_csrf":"gYsyuwrm-RHB3_vCkH5joqeNPKpKldoQg7go","areaId":8,"userId":13},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-17T20:07:18.129Z","userId":10}
+{"body":{"_csrf":"gYsyuwrm-RHB3_vCkH5joqeNPKpKldoQg7go","areaId":8,"userId":13},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-17T20:07:18.130Z","userId":10}
+{"level":"info","message":"User 10 assigned user 13 to area 8","timestamp":"2025-11-17T20:07:18.133Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:07:19.565Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:07:19.570Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:07:19.742Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:07:19.743Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-17T20:07:19.910Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-17T20:07:19.911Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:08:55.170Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:08:55.172Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:08:55.172Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:08:55.179Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:08:55.237Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:08:55.237Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:08:58.038Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:08:58.521Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:08:58.522Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:08:58.522Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:08:58.533Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:09:20.283Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:09:20.748Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:09:20.749Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:09:20.749Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:09:20.752Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:09:25.632Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:09:26.102Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:09:26.103Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:09:26.103Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:09:26.106Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:10:15.710Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:10:16.280Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:10:16.281Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:10:16.282Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:10:16.294Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:10:19.616Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:12:13.883Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:12:49.108Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:12:49.110Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:12:49.111Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:12:49.487Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:12:49.542Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:12:49.543Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:12:52.901Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:13:24.440Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:13:24.442Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:13:24.442Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:13:24.451Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:13:24.508Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:13:24.508Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:13:27.634Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:15:39.328Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:15:39.330Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:15:39.330Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:15:39.336Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:15:39.394Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:15:39.395Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:15:42.380Z","userId":10}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-17T20:15:44.422Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:15:44.958Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:15:44.959Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:15:44.959Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:15:44.966Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:15:47.694Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:15:48.280Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:15:48.281Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:15:48.281Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:15:48.286Z"}
+{"level":"info","message":"areas.api.update - attempt","params":{"id":"8"},"role_id":25,"timestamp":"2025-11-17T20:15:54.759Z","userId":10}
+{"body":{"_csrf":"5QMhxWWV-J3nNijqRKLyYyNUzjvFJo20s9YQ","code":"34455","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghg","region":"North"},"level":"info","message":"updateArea - start","params":{"id":"8"},"timestamp":"2025-11-17T20:15:54.761Z","userId":10}
+{"level":"info","message":"User 10 updated area 8","timestamp":"2025-11-17T20:15:54.780Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:15:54.955Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:15:54.955Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:15:54.956Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:15:54.961Z"}
+{"body":{"_csrf":"5QMhxWWV-J3nNijqRKLyYyNUzjvFJo20s9YQ","areaId":8,"userId":13},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-17T20:16:01.556Z","userId":10}
+{"body":{"_csrf":"5QMhxWWV-J3nNijqRKLyYyNUzjvFJo20s9YQ","areaId":8,"userId":13},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-17T20:16:01.557Z","userId":10}
+{"level":"info","message":"User 10 assigned user 13 to area 8","timestamp":"2025-11-17T20:16:01.565Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:16:01.739Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:16:01.739Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:16:01.739Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:16:01.741Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:16:03.128Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:16:03.699Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:16:03.699Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:16:03.699Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:16:03.701Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:16:26.849Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:16:50.336Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:16:50.909Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:16:50.909Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:16:50.909Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:16:50.912Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:16:58.660Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:17:27.125Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T20:17:27.127Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:17:27.127Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:17:27.136Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:17:27.193Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:17:27.193Z","userId":11}
+{"level":"info","message":"areas.add - render","role_id":26,"timestamp":"2025-11-17T20:17:29.635Z","userId":11}
+{"level":"info","message":"areas.add - render","role_id":26,"timestamp":"2025-11-17T20:19:05.726Z","userId":11}
+{"level":"info","message":"areas.list - render","role_id":26,"timestamp":"2025-11-17T20:19:15.658Z","userId":11}
+{"level":"info","message":"areas.api.getAll - called","role_id":26,"timestamp":"2025-11-17T20:19:15.802Z","userId":11}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:19:15.803Z","userId":11}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":15},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:19:15.803Z","user":{"id":11,"phone":"01973832210","role_id":26,"tenant_id":15}}
+{"level":"info","message":"User 11 fetched 0 areas","timestamp":"2025-11-17T20:19:15.813Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:19:29.298Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:19:29.298Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:19:29.298Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:19:29.300Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:19:29.357Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:19:29.357Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:19:31.896Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:19:36.286Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:20:18.432Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:20:24.751Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:20:24.868Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:20:24.868Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:20:24.869Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:20:24.882Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:20:30.175Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:21:28.689Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:21:29.968Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:21:30.563Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:21:35.403Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:21:42.004Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:21:48.787Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:21:53.960Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:22:39.732Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:22:40.791Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:22:42.648Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:23:19.271Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:23:44.255Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:24:22.228Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:24:22.230Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:24:22.230Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:24:22.238Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:24:22.297Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:24:22.297Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:24:24.337Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:25:42.430Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:26:43.075Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:26:43.077Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:26:43.077Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:26:43.085Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:26:43.148Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:26:43.149Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:26:46.568Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:28:27.988Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:28:27.990Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:28:27.990Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:28:27.996Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:28:28.057Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:28:28.058Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:28:30.913Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:31:47.240Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:31:47.241Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:31:47.241Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:31:47.248Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:31:47.349Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:31:47.352Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:31:49.583Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:34:58.282Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:34:58.285Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:34:58.286Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:34:58.294Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:34:58.355Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:34:58.355Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:35:00.191Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:35:00.306Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:35:00.306Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:35:00.307Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:35:00.330Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:35:06.391Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:35:12.168Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:36:33.242Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:36:33.244Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:36:33.245Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:36:33.249Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:36:33.310Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:36:33.310Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:36:35.182Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:42:06.690Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:42:06.692Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:42:06.692Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:42:06.700Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:42:06.758Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:42:06.759Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:42:09.397Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:44:06.315Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:44:06.316Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:44:06.317Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:44:06.325Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:44:06.385Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:44:06.385Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:44:09.653Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:44:39.282Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:44:39.284Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:44:39.284Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:44:39.384Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:44:39.441Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:44:39.442Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:44:41.949Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:46:56.204Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:47:25.170Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:50:43.979Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:51:32.117Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:55:45.293Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:55:45.297Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:55:45.297Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:55:45.307Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:55:45.370Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:55:45.371Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T20:55:47.916Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T20:55:48.027Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T20:55:48.028Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T20:55:48.029Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T20:55:48.051Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:55:50.630Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T20:56:57.814Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T20:56:57.816Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T20:56:57.817Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T20:56:57.829Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T20:56:57.888Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T20:56:57.889Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T20:57:00.155Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T21:00:03.030Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T21:00:03.033Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T21:00:03.033Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T21:00:03.044Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T21:00:03.104Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T21:00:03.104Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-17T21:00:05.174Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-17T21:00:05.254Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-17T21:00:05.254Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-17T21:00:05.255Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-17T21:00:05.274Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T21:00:08.803Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-17T21:00:27.109Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:09:43.913Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:09:43.915Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:09:43.915Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:09:43.940Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:09:44.000Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:09:44.000Z","userId":10}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-18T00:12:26.802Z","userId":10}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:12:30.493Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:12:31.429Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:12:31.431Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:12:31.431Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-18T00:12:34.586Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:15:36.196Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:15:36.198Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:15:36.198Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:15:36.211Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:15:36.271Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:15:36.271Z","userId":10}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:16:05.972Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:16:06.053Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:16:06.054Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:16:06.054Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-18T00:16:06.068Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:16:37.881Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:16:37.935Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:16:37.936Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:16:37.936Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-18T00:16:37.954Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:39.334Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-18T00:16:39.363Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:39.367Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-18T00:16:39.368Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:39.372Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-18T00:16:39.374Z"}
+{"body":{"_csrf":"mnEpBJd7-ewKrPad2U065XDqBDUBvGfBZkWs","areaId":8,"userId":13},"level":"info","message":"areas.api.removeUser - attempt","role_id":25,"timestamp":"2025-11-18T00:16:43.531Z","userId":10}
+{"body":{"_csrf":"mnEpBJd7-ewKrPad2U065XDqBDUBvGfBZkWs","areaId":8,"userId":13},"level":"info","message":"removeUserFromArea - start","timestamp":"2025-11-18T00:16:43.535Z","userId":10}
+{"level":"info","message":"User 10 removed user 13 from area 8","timestamp":"2025-11-18T00:16:43.576Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:44.742Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T00:16:44.746Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:44.749Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T00:16:44.751Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:44.754Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T00:16:44.755Z"}
+{"body":{"_csrf":"mnEpBJd7-ewKrPad2U065XDqBDUBvGfBZkWs","areaId":8,"userId":10},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-18T00:16:45.683Z","userId":10}
+{"body":{"_csrf":"mnEpBJd7-ewKrPad2U065XDqBDUBvGfBZkWs","areaId":8,"userId":10},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-18T00:16:45.684Z","userId":10}
+{"level":"info","message":"User 10 assigned user 10 to area 8","timestamp":"2025-11-18T00:16:45.692Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:46.859Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-18T00:16:46.861Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:46.866Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-18T00:16:46.869Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T00:16:46.872Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 8","timestamp":"2025-11-18T00:16:46.874Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:17:31.235Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:17:31.239Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:17:31.239Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:17:31.250Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:17:31.311Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:17:31.311Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:18:15.200Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:18:15.201Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:18:15.202Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:18:15.211Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:18:15.269Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:18:15.287Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:18:40.243Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:18:40.246Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:18:40.247Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:18:40.254Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:18:40.315Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:18:40.325Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:19:19.605Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:19:19.607Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:19:19.608Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:19:19.614Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:19:19.671Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:19:19.672Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:29:42.171Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:29:42.172Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:29:42.173Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:29:42.187Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:29:42.274Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:29:42.274Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:30:11.725Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:30:11.726Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:30:11.727Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:30:11.730Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:30:11.793Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:30:11.793Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:32:52.208Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:32:52.210Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:32:52.210Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:32:52.217Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:32:52.277Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:32:52.278Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:33:26.203Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:33:26.203Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:33:26.203Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:33:26.206Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:33:26.264Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:33:26.264Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-18T00:35:21.623Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:35:21.883Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:35:21.884Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:35:21.885Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 1 areas","timestamp":"2025-11-18T00:35:21.920Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:37:53.938Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:37:53.940Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:37:53.940Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:37:53.948Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:37:54.009Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:37:54.009Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:38:14.547Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:38:14.548Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:38:14.549Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:38:14.554Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:38:14.613Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:38:14.613Z","userId":10}
+{"level":"info","message":"getAreaById - start","params":{"id":"8"},"timestamp":"2025-11-18T00:38:34.059Z","userId":10}
+{"level":"info","message":"User 10 viewed area 8","timestamp":"2025-11-18T00:38:34.080Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-18T00:38:55.547Z","userId":10}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-18T00:39:09.751Z","userId":10}
+{"body":{"_csrf":"rmGoJMNk-tkz4rHymSek9fojPQN4NUD5gRlw","code":"52984","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghfgh","region":"East"},"level":"info","message":"createArea - start","timestamp":"2025-11-18T00:39:09.753Z","userId":10}
+{"body":{"_csrf":"rmGoJMNk-tkz4rHymSek9fojPQN4NUD5gRlw","code":"52984","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghfgh","region":"East"},"error":{},"level":"info","message":"Area creation error: Area creation error: Duplicate entry '14-পআব্‌ব' for key 'areas.uq_area_name_bn'","timestamp":"2025-11-18T00:39:09.792Z","user":10}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-18T00:39:18.650Z","userId":10}
+{"body":{"_csrf":"rmGoJMNk-tkz4rHymSek9fojPQN4NUD5gRlw","code":"529844","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghfgh","region":"East"},"level":"info","message":"createArea - start","timestamp":"2025-11-18T00:39:18.651Z","userId":10}
+{"body":{"_csrf":"rmGoJMNk-tkz4rHymSek9fojPQN4NUD5gRlw","code":"529844","description_bn":"","description_en":"","name_bn":"পআব্‌ব","name_en":"fghfgh","region":"East"},"error":{},"level":"info","message":"Area creation error: Area creation error: Duplicate entry '14-পআব্‌ব' for key 'areas.uq_area_name_bn'","timestamp":"2025-11-18T00:39:18.655Z","user":10}
+{"level":"info","message":"areas.api.create - attempt","role_id":25,"timestamp":"2025-11-18T00:39:25.834Z","userId":10}
+{"body":{"_csrf":"rmGoJMNk-tkz4rHymSek9fojPQN4NUD5gRlw","code":"529844","description_bn":"","description_en":"","name_bn":"পআব্‌","name_en":"fghfgh","region":"East"},"level":"info","message":"createArea - start","timestamp":"2025-11-18T00:39:25.835Z","userId":10}
+{"level":"info","message":"User 10 created area: fghfgh (529844)","timestamp":"2025-11-18T00:39:25.851Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-18T00:39:27.372Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:39:27.563Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:39:27.564Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:39:27.564Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:39:27.571Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:39:39.088Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:39:39.262Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:39:39.262Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:39:39.262Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:39:39.270Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:39:41.870Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:39:41.880Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:39:41.884Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:39:41.886Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:39:41.890Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:39:41.894Z"}
+{"body":{"_csrf":"unL3YqJ3-8bPicGfu2z9LJUAjfU5oKUciKAM","areaId":11,"userId":10},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-18T00:39:43.824Z","userId":10}
+{"body":{"_csrf":"unL3YqJ3-8bPicGfu2z9LJUAjfU5oKUciKAM","areaId":11,"userId":10},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-18T00:39:43.826Z","userId":10}
+{"level":"info","message":"User 10 assigned user 10 to area 11","timestamp":"2025-11-18T00:39:43.833Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:39:45.578Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T00:39:45.582Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:39:45.590Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T00:39:45.599Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:39:45.605Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T00:39:45.609Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-18T00:39:48.943Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:39:49.095Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:39:49.097Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:39:49.101Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:39:49.107Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-18T00:39:51.134Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:39:51.271Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:39:51.271Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:39:51.273Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:39:51.280Z"}
+{"body":{"areaId":"11","userId":"10"},"level":"info","message":"areas.api.removeUser - attempt","role_id":25,"timestamp":"2025-11-18T00:40:03.293Z","userId":10}
+{"body":{"areaId":"11","userId":"10"},"level":"info","message":"removeUserFromArea - start","timestamp":"2025-11-18T00:40:03.295Z","userId":10}
+{"level":"info","message":"User 10 removed user 10 from area 11","timestamp":"2025-11-18T00:40:03.304Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:44:30.291Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:44:30.293Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:44:30.293Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:44:30.299Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:44:30.359Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:44:30.360Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T00:44:39.448Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T00:44:39.450Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T00:44:39.451Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T00:44:39.458Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T00:44:39.518Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T00:44:39.519Z","userId":10}
+{"level":"info","message":"getAreaById - start","params":{"id":"8"},"timestamp":"2025-11-18T00:45:39.875Z","userId":10}
+{"level":"info","message":"User 10 viewed area 8","timestamp":"2025-11-18T00:45:39.883Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:46:11.686Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:46:12.468Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:46:12.469Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:46:12.469Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:46:12.476Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-18T00:46:19.676Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:46:20.436Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:46:20.436Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:46:20.436Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:46:20.440Z"}
+{"level":"info","message":"areas.api.update - attempt","params":{"id":"11"},"role_id":25,"timestamp":"2025-11-18T00:46:39.443Z","userId":10}
+{"body":{"_csrf":"yx58ZrCE-2fsoAKMSrpTvh4LhyE35ImqC6KQ","code":"529844","description_bn":"","description_en":"","name_bn":"কুকরাহাট","name_en":"Kukrahat","region":"East"},"level":"info","message":"updateArea - start","params":{"id":"11"},"timestamp":"2025-11-18T00:46:39.444Z","userId":10}
+{"level":"info","message":"User 10 updated area 11","timestamp":"2025-11-18T00:46:39.453Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:46:39.667Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:46:39.667Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:46:39.667Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:46:39.669Z"}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-18T00:46:42.849Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:46:43.456Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:46:43.457Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:46:43.457Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:46:43.459Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:46:52.119Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:46:52.998Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:46:52.998Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:46:52.998Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:46:53.001Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:46:55.103Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:46:55.108Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:46:55.283Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:46:55.285Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:46:55.487Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:46:55.488Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:48:05.103Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:48:07.326Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:48:07.326Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:48:07.326Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:48:07.328Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:48:09.306Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:48:09.315Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:48:09.500Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:48:09.502Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:48:09.685Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 11","timestamp":"2025-11-18T00:48:09.686Z"}
+{"body":{"_csrf":"F6CbTMoB-TWlT_z_KCsSqL1J6hVG5q7b3_cM","areaId":11,"userId":10},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-18T00:48:11.468Z","userId":10}
+{"body":{"_csrf":"F6CbTMoB-TWlT_z_KCsSqL1J6hVG5q7b3_cM","areaId":11,"userId":10},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-18T00:48:11.469Z","userId":10}
+{"level":"info","message":"User 10 assigned user 10 to area 11","timestamp":"2025-11-18T00:48:11.474Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:48:13.329Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T00:48:13.331Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:48:13.554Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T00:48:13.555Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T00:48:13.744Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T00:48:13.745Z"}
+{"body":{"areaId":"8","userId":"10"},"level":"info","message":"areas.api.removeUser - attempt","role_id":25,"timestamp":"2025-11-18T00:48:29.890Z","userId":10}
+{"body":{"areaId":"8","userId":"10"},"level":"info","message":"removeUserFromArea - start","timestamp":"2025-11-18T00:48:29.891Z","userId":10}
+{"level":"info","message":"User 10 removed user 10 from area 8","timestamp":"2025-11-18T00:48:29.896Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T00:48:38.403Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T00:48:40.158Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T00:48:40.158Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T00:48:40.158Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T00:48:40.160Z"}
+{"body":{"areaId":"11","userId":"10"},"level":"info","message":"areas.api.removeUser - attempt","role_id":25,"timestamp":"2025-11-18T00:48:50.244Z","userId":10}
+{"body":{"areaId":"11","userId":"10"},"level":"info","message":"removeUserFromArea - start","timestamp":"2025-11-18T00:48:50.245Z","userId":10}
+{"level":"info","message":"User 10 removed user 10 from area 11","timestamp":"2025-11-18T00:48:50.249Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-18T01:07:48.428Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-18T01:07:48.430Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-18T01:07:48.430Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-18T01:07:48.438Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-18T01:07:48.553Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-18T01:07:48.554Z","userId":10}
+{"level":"info","message":"areas.list - render","role_id":25,"timestamp":"2025-11-18T01:08:34.673Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T01:08:34.830Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T01:08:34.832Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T01:08:34.833Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T01:08:34.852Z"}
+{"body":{"_csrf":"nA3le5UT-zDyeWomo3ClmOfeZxhqumrwW6H8","areaId":11,"userId":10},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-18T01:08:39.767Z","userId":10}
+{"body":{"_csrf":"nA3le5UT-zDyeWomo3ClmOfeZxhqumrwW6H8","areaId":11,"userId":10},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-18T01:08:39.770Z","userId":10}
+{"level":"info","message":"User 10 assigned user 10 to area 11","timestamp":"2025-11-18T01:08:39.797Z"}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T01:08:39.805Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T01:08:39.807Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T01:08:39.809Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T01:08:39.812Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T01:08:42.903Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T01:08:43.037Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T01:08:43.037Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T01:08:43.037Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T01:08:43.054Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T01:08:45.619Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T01:08:45.776Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T01:08:45.777Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T01:08:45.778Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T01:08:45.782Z"}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T01:08:56.671Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T01:08:56.804Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T01:08:56.804Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T01:08:56.804Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T01:08:56.807Z"}
+{"level":"info","message":"areas.add - render","role_id":25,"timestamp":"2025-11-18T01:09:54.904Z","userId":10}
+{"level":"info","message":"areas.assign - attempt to render assign page","role_id":25,"timestamp":"2025-11-18T01:09:58.813Z","userId":10}
+{"level":"info","message":"areas.api.getAll - called","role_id":25,"timestamp":"2025-11-18T01:09:58.991Z","userId":10}
+{"level":"info","message":"getAllAreas - start","query":{},"timestamp":"2025-11-18T01:09:58.991Z","userId":10}
+{"filters":{"is_active":1,"region":null,"search":null,"tenant_id":14},"level":"info","message":"getAllAreas - filters","timestamp":"2025-11-18T01:09:58.993Z","user":{"id":10,"phone":"01973832293","role_id":25,"tenant_id":14}}
+{"level":"info","message":"User 10 fetched 2 areas","timestamp":"2025-11-18T01:09:58.995Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:01.955Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:01.983Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:01.987Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:01.989Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:01.992Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:01.995Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:03.497Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:03.501Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:03.506Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:03.508Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:03.511Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:03.513Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:07.482Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:07.484Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:07.488Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:07.490Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:07.495Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:07.499Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:11.138Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:11.140Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:11.146Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:11.148Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:11.153Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:11.156Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:13.682Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:13.684Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:13.689Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:13.692Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"8"},"timestamp":"2025-11-18T01:10:13.697Z","userId":10}
+{"level":"info","message":"Fetched 0 users for area 8","timestamp":"2025-11-18T01:10:13.699Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:15.410Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:15.412Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:15.415Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:15.417Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:15.421Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:15.423Z"}
+{"body":{"_csrf":"8NRKgICK-AFMO9MPL6umtjywWlvxss9M_AEc","areaId":11,"userId":13},"level":"info","message":"areas.api.assignUser - attempt","role_id":25,"timestamp":"2025-11-18T01:10:22.152Z","userId":10}
+{"body":{"_csrf":"8NRKgICK-AFMO9MPL6umtjywWlvxss9M_AEc","areaId":11,"userId":13},"level":"info","message":"assignUserToArea - start","timestamp":"2025-11-18T01:10:22.154Z","userId":10}
+{"level":"info","message":"User 10 assigned user 13 to area 11","timestamp":"2025-11-18T01:10:22.162Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:24.227Z","userId":10}
+{"level":"info","message":"Fetched 2 users for area 11","timestamp":"2025-11-18T01:10:24.232Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:24.244Z","userId":10}
+{"level":"info","message":"Fetched 2 users for area 11","timestamp":"2025-11-18T01:10:24.247Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:24.258Z","userId":10}
+{"level":"info","message":"Fetched 2 users for area 11","timestamp":"2025-11-18T01:10:24.261Z"}
+{"body":{"_csrf":"8NRKgICK-AFMO9MPL6umtjywWlvxss9M_AEc","areaId":11,"userId":13},"level":"info","message":"areas.api.removeUser - attempt","role_id":25,"timestamp":"2025-11-18T01:10:27.368Z","userId":10}
+{"body":{"_csrf":"8NRKgICK-AFMO9MPL6umtjywWlvxss9M_AEc","areaId":11,"userId":13},"level":"info","message":"removeUserFromArea - start","timestamp":"2025-11-18T01:10:27.371Z","userId":10}
+{"level":"info","message":"User 10 removed user 13 from area 11","timestamp":"2025-11-18T01:10:27.378Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:28.512Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:28.513Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:28.517Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:28.518Z"}
+{"level":"info","message":"getAreaUsers - start","params":{"areaId":"11"},"timestamp":"2025-11-18T01:10:28.525Z","userId":10}
+{"level":"info","message":"Fetched 1 users for area 11","timestamp":"2025-11-18T01:10:28.527Z"}

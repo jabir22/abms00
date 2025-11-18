@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="<%= csrfToken %>" />
+    <title>Login - BMS</title>
+    <link rel="stylesheet" href="/login/login.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="form-card">
+            <h2>ABMS লগইন</h2>
+            <p class="subtitle">আপনার অ্যাকাউন্টে প্রবেশ করুন</p>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="phone">মোবাইল নম্বর</label>
+                    <input type="phone" id="phone" placeholder="মোবাইল নম্বর" required />
+                </div>
+
+                <div class="input-group">
+                    <label for="password">পাসওয়ার্ড</label>
+                    <div class="password-wrapper">
+                        <input type="password" id="password" placeholder="পাসওয়ার্ড দিন" required />
+                        <span id="togglePassword" class="eye">👁️</span>
+                    </div>
+                </div>
+
+                <button type="submit">লগইন করুন</button>
+
+                <p class="links">
+                    <a href="/signup">নতুন অ্যাকাউন্ট খুলুন</a> |
+                    <a href="/forgot">পাসওয়ার্ড ভুলে গেছেন?</a>
+                </p>
+
+                <p id="errorMsg" class="error"></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="/login/login.js"></script>
+</body>
+
+</html>

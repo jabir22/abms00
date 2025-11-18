@@ -1,0 +1,429 @@
+<%- include('../partials/header') %>
+  <!-- Add CSRF Token -->
+  <meta name="csrf-token" content="<%= csrfToken %>">
+
+  <!-- =============== LAYOUT =============== -->
+
+  <%- include('../partials/sidebar') %>
+
+    <main class="main-content">
+      <section class="profile-wrapper">
+
+        <!-- ================= Profile Header ================= -->
+        <div class="profile-header">
+          <div class="profile-header-bg"></div>
+          <div class="profile-header-content">
+            <div class="profile-photo-section">
+              <div class="profile-photo-area">
+                <img id="profilePhoto" src="<%= user.profile_photo %>" class="profile-img" alt="Profile Photo">
+                <button class="photo-edit-btn" onclick="openModal('profile_photo')" title="প্রোফাইল ছবি পরিবর্তন">
+                  <i class="fas fa-camera"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="profile-basic-info">
+              <h1 class="profile-name" id="displayName">
+                <i class="fas fa-user-circle"></i>
+                <%= user.name_bn %>
+              </h1>
+              <div class="profile-meta">
+                <div class="meta-item">
+                  <i class="fas fa-briefcase"></i>
+                  <span class="meta-label">পদবি:</span>
+                  <span class="meta-value" id="displayRole" data-role-id="<%= user.role_id %>">
+                    <%= user.role %>
+                  </span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-phone-alt"></i>
+                  <span class="meta-label">মোবাইল:</span>
+                  <span class="meta-value" id="displayPhone">
+                    <%= user.phone %>
+                  </span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-at"></i>
+                  <span class="meta-label">ইমেইল:</span>
+                  <span class="meta-value" id="displayEmail">
+                    <%= user.email %>
+                  </span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-calendar-plus"></i>
+                  <span class="meta-label">একাউন্ট তৈরি:</span>
+                  <span class="meta-value" id="displayCreated">
+                    <% if (user.created_at) { %>
+                      <%= new Date(user.created_at).toLocaleString() %>
+                        <% } else { %>
+                          -
+                          <% } %>
+                  </span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-sign-in-alt"></i>
+                  <span class="meta-label">সর্বশেষ লগইন:</span>
+                  <span class="meta-value" id="displayLastLogin">
+                    <% if (user.last_login_at) { %>
+                      <%= new Date(user.last_login_at).toLocaleString() %>
+                        <% } else { %>
+                          -
+                          <% } %>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= Profile Stats ================= -->
+        <div class="profile-stats">
+          <div class="stat-item">
+            <div class="stat-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="stat-content">
+              <span class="stat-number" id="profileCompleteness">75%</span>
+              <span class="stat-label">প্রোফাইল সম্পূর্ণতা</span>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="stat-content">
+              <span class="stat-number" id="accountAge">সক্রিয়</span>
+              <span class="stat-label">অ্যাকাউন্ট অবস্থা</span>
+            </div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="stat-content">
+              <span class="stat-number" id="securityStatus">উচ্চ</span>
+              <span class="stat-label">নিরাপত্তা স্তর</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= Profile Tabs ================= -->
+        <div class="profile-tabs">
+          <button class="tab-btn active" onclick="switchTab('personal')">
+            <i class="fas fa-id-card"></i> ব্যক্তিগত তথ্য
+          </button>
+          <button class="tab-btn" onclick="switchTab('contact')">
+            <i class="fas fa-address-book"></i> যোগাযোগ
+          </button>
+          <button class="tab-btn" onclick="switchTab('address')">
+            <i class="fas fa-map-marker-alt"></i> ঠিকানা
+          </button>
+          <button class="tab-btn" onclick="switchTab('permissions')">
+            <i class="fas fa-shield-alt"></i> পারমিশনসমূহ
+          </button>
+          <button class="tab-btn" onclick="switchTab('areas')">
+            <i class="fas fa-map"></i> বরাদ্দকৃত এরিয়া
+          </button>
+          <button class="tab-btn" onclick="switchTab('security')">
+            <i class="fas fa-lock"></i> নিরাপত্তা
+          </button>
+        </div>
+
+        <!-- ================= Tab 1: Personal Info ================= -->
+        <div id="personal" class="profile-tab-content active">
+          <div class="info-card-grid">
+            <div class="info-card">
+              <div class="card-header">
+                <h4><i class="fas fa-heading"></i> নাম (ইংরেজি)</h4>
+                <button class="quick-edit-btn" onclick="openModal('name_en')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="nameEnCell">
+                <%= user.name_en %>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-header">
+                <h4><i class="fas fa-heading"></i> নাম (বাংলা)</h4>
+                <button class="quick-edit-btn" onclick="openModal('name_bn')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="nameBnCell">
+                <%= user.name_bn %>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-header">
+                <h4><i class="fas fa-venus-mars"></i> লিঙ্গ</h4>
+                <button class="quick-edit-btn" onclick="openModal('gender')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="genderCell">
+                <%= user.gender %>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-header">
+                <h4><i class="fas fa-birthday-cake"></i> জন্মতারিখ</h4>
+                <button class="quick-edit-btn" onclick="openModal('dob')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="dobCell">
+                <%= user.dob %>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-header">
+                <h4><i class="fas fa-user-tie"></i> পিতার নাম</h4>
+                <button class="quick-edit-btn" onclick="openModal('father_name')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="fatherCell">
+                <%= user.father_name %>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="card-header">
+                <h4><i class="fas fa-user"></i> মাতার নাম</h4>
+                <button class="quick-edit-btn" onclick="openModal('mother_name')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="motherCell">
+                <%= user.mother_name %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= Tab 2: Contact Info ================= -->
+        <div id="contact" class="profile-tab-content">
+          <div class="info-card-grid">
+            <div class="info-card full-width">
+              <div class="card-header">
+                <h4><i class="fas fa-envelope"></i> ইমেইল</h4>
+                <button class="quick-edit-btn" onclick="openModal('email')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="emailCell">
+                <%= user.email %>
+              </div>
+            </div>
+
+            <div class="info-card full-width">
+              <div class="card-header">
+                <h4><i class="fas fa-phone"></i> মোবাইল</h4>
+                <button class="quick-edit-btn" onclick="openModal('phone')" title="সম্পাদন করুন">
+                  <i class="fas fa-pen"></i>
+                </button>
+              </div>
+              <div class="card-value" id="phoneCell">
+                <%= user.phone %>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= Tab 3: Address ================= -->
+        <div id="address" class="profile-tab-content">
+          <div class="address-grid">
+            <div class="address-card">
+              <div class="address-icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <div class="address-content">
+                <h4><i class="fas fa-map-pin"></i> স্থায়ী ঠিকানা</h4>
+                <p id="permanentAddress">
+                  <%= user.permanent_address %>
+                </p>
+                <button class="card-edit-btn" onclick="openModal('permanent_address')">
+                  <i class="fas fa-edit"></i> সম্পাদন
+                </button>
+              </div>
+            </div>
+
+            <div class="address-card">
+              <div class="address-icon">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div class="address-content">
+                <h4><i class="fas fa-map-pin"></i> বর্তমান ঠিকানা</h4>
+                <p id="currentAddress">
+                  <%= user.current_address %>
+                </p>
+                <button class="card-edit-btn" onclick="openModal('current_address')">
+                  <i class="fas fa-edit"></i> সম্পাদন
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= Tab: Permissions ================= -->
+        <div id="permissions" class="profile-tab-content">
+          <% var _groups=[]; if (typeof groupedPermissions !=='undefined' && groupedPermissions &&
+            groupedPermissions.length) { _groups=groupedPermissions; } else if (typeof targetPermissions !=='undefined'
+            && targetPermissions && targetPermissions.length) { _groups=[{ group: 'General' , perms: targetPermissions
+            }]; } else if (typeof userPermissions !=='undefined' && userPermissions && userPermissions.length) {
+            _groups=[{ group: 'General' , perms: userPermissions }]; } %>
+            <div class="permissions-card">
+              <div class="card-header">
+                <h4><i class="fas fa-shield-alt"></i> পারমিশনসমূহ (<span id="permCount">
+                    <%= _groups.reduce((s,g)=>s+ (g.perms?g.perms.length:0),0) %>
+                  </span>)</h4>
+              </div>
+              <div class="card-body">
+                <% if (_groups.length) { %>
+                  <% _groups.forEach(function(gr) { %>
+                    <div class="perm-group">
+                      <h5 class="perm-group-title">
+                        <%= gr.group %> <span class="muted">(<%= gr.perms.length %>)</span>
+                      </h5>
+                      <div class="permissions-list-grid">
+                        <% (gr.perms || []).forEach(function(p){ %>
+                          <div class="perm-badge" title="<%= p %>"><i class="fas fa-check"></i>
+                            <%= p %>
+                          </div>
+                          <% }) %>
+                      </div>
+                    </div>
+                    <% }) %>
+                      <% } else { %>
+                        <p class="muted">এই ব্যবহারকারীর কাছে কোনো পারমিশন তালিকাভুক্ত নেই।</p>
+                        <% } %>
+              </div>
+            </div>
+        </div>
+
+        <!-- ================= Tab 5: Assigned Areas ================= -->
+        <div id="areas" class="profile-tab-content">
+          <div class="areas-section">
+            <div class="card-header">
+              <h4><i class="fas fa-map"></i> বরাদ্দকৃত এরিয়া (<span id="areasCount">
+                  <%= assignedAreas.length %>
+                </span>)</h4>
+            </div>
+            <div class="areas-list">
+              <% if (assignedAreas && assignedAreas.length) { %>
+                <div class="areas-table-wrapper">
+                  <table class="areas-table" aria-label="Assigned Areas">
+                    <thead>
+                      <tr>
+                        <th>কোড</th>
+                        <th>এরিয়া নাম</th>
+                        <th>উপ-এলাকা</th>
+                        <th>অঞ্চল</th>
+                        <th>বরাদ্দের তারিখ</th>
+                        <th>বরাদ্দকারী</th>
+                        <th>কর্ম</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <% assignedAreas.forEach(function(a) { %>
+                        <tr class="area-row" data-area-id="<%= a.id %>">
+                          <td class="td-code" data-label="কোড">
+                            <%= a.code || '-' %>
+                          </td>
+                          <td class="td-name" data-label="এরিয়া নাম"><a class="area-link"
+                              href="/admin/areas/<%= a.id %>"><strong>
+                                <%= a.name_bn || a.name_en || '-' %>
+                              </strong></a></td>
+                          <td class="td-parent" data-label="উপ-এলাকা">
+                            <%= a.parent_name_bn || a.parent_name_en || '-' %>
+                          </td>
+                          <td class="td-region" data-label="অঞ্চল">
+                            <%= a.region || '-' %>
+                          </td>
+                          <td class="td-assigned" data-label="বরাদ্দের তারিখ">
+                            <%= a.assigned_at ? new Date(a.assigned_at).toLocaleString() : '-' %>
+                          </td>
+                          <td class="td-by" data-label="বরাদ্দকারী">
+                            <%= a.assigned_by_name || '-' %>
+                          </td>
+                          <td class="td-actions" data-label="কর্ম">
+                            <% if (Array.isArray(userPermissions) && userPermissions.includes('assign_area')) { %>
+                              <button class="btn-unassign-area" data-area-id="<%= a.id %>" title="Unassign"><i
+                                  class="fas fa-user-slash"></i> বরখাস্ত</button>
+                              <% } %>
+                          </td>
+                        </tr>
+                        <% }) %>
+                    </tbody>
+                  </table>
+                </div>
+                <% } else { %>
+                  <p class="muted">এই ইউজারকে কোনো এরিয়া বরাদ্দ করা হয়নি।</p>
+                  <% } %>
+            </div>
+          </div>
+        </div>
+
+        <!-- ================= Tab 4: Security ================= -->
+        <div id="security" class="profile-tab-content">
+          <div class="security-section">
+            <div class="security-item">
+              <div class="security-icon">
+                <i class="fas fa-key"></i>
+              </div>
+              <div class="security-content">
+                <h4>পাসওয়ার্ড</h4>
+                <p>আপনার অ্যাকাউন্ট সুরক্ষিত রাখতে নিয়মিত পাসওয়ার্ড পরিবর্তন করুন।</p>
+                <button class="security-btn" onclick="openModal('password')">
+                  <i class="fas fa-lock"></i> পাসওয়ার্ড পরিবর্তন করুন
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- ================= Modal ================= -->
+      <div id="modalOverlay" class="modal-overlay" onclick="closeModal()"></div>
+      <div id="genericModal" class="modal-box">
+        <div class="modal-header">
+          <h3 id="modalTitle"><i class="fas fa-edit"></i> Edit</h3>
+          <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <!-- Example input groups with icons -->
+          <div class="modal-input-group">
+            <label for="modalInput"><i class="fas fa-user"></i> নাম</label>
+            <input type="text" id="modalInput" placeholder="নতুন নাম লিখুন">
+          </div>
+          <div class="modal-input-group">
+            <label for="modalEmail"><i class="fas fa-envelope"></i> ই-মেইল</label>
+            <input type="email" id="modalEmail" placeholder="নতুন ই-মেইল লিখুন">
+          </div>
+          <div class="modal-input-group">
+            <label for="modalPhone"><i class="fas fa-phone"></i> মোবাইল</label>
+            <input type="text" id="modalPhone" placeholder="নতুন মোবাইল নাম্বার লিখুন">
+          </div>
+          <div class="modal-input-group">
+            <label for="modalPassword"><i class="fas fa-lock"></i> পাসওয়ার্ড</label>
+            <input type="password" id="modalPassword" placeholder="নতুন পাসওয়ার্ড লিখুন">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-cancel" onclick="closeModal()"><i class="fas fa-times-circle"></i> Cancel</button>
+          <button class="modal-save" onclick="saveModal()"><i class="fas fa-check-circle"></i> Save</button>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- ================= Scripts ================= -->
+    <%- include('../partials/footer') %>

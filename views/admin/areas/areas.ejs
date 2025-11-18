@@ -1,0 +1,230 @@
+<%- include('../../partials/header') %>
+    <%- include('../../partials/sidebar') %>
+
+        <link rel="stylesheet" href="/css/areas.css">
+
+        <div class="main-content">
+            <!-- Header Section -->
+            <div class="areas-header">
+                <div class="header-content">
+                    <div class="header-title">
+                        <h1><i class="fas fa-map-location-dot"></i> Area Management</h1>
+                        <p class="subtitle">Manage and organize business areas with user assignments</p>
+                    </div>
+                    <div class="header-actions">
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="searchInput" placeholder="Search areas...">
+                        </div>
+                        <button class="btn btn-primary" id="addAreaBtn">
+                            <i class="fas fa-plus"></i> Add New Area
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Section -->
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: linear-gradient(135deg, #FF9800, #F57C00);">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="totalAreas">0</div>
+                        <div class="stat-label">Total Areas</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: linear-gradient(135deg, #2196F3, #1976D2);">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="totalUsers">0</div>
+                        <div class="stat-label">Assigned Users</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon" style="background: linear-gradient(135deg, #4CAF50, #388E3C);">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value" id="activeAreas">0</div>
+                        <div class="stat-label">Active Areas</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="regionFilter">Filter by Region:</label>
+                    <select id="regionFilter">
+                        <option value="">All Regions</option>
+                        <option value="Central">Central</option>
+                        <option value="East">East</option>
+                        <option value="North-East">North-East</option>
+                        <option value="North">North</option>
+                        <option value="South-West">South-West</option>
+                        <option value="South">South</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="statusFilter">Status:</label>
+                    <select id="statusFilter">
+                        <option value="">All Status</option>
+                        <option value="active">Active</option>
+                        <option value="inactive">Inactive</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Areas Table -->
+            <div class="areas-table-container">
+                <table class="areas-table">
+                    <thead>
+                        <tr>
+                            <th>Area Name (বাংলা)</th>
+                            <th>Area Name (English)</th>
+                            <th>Code</th>
+                            <th>Region</th>
+                            <th>Users</th>
+                            <th>Status</th>
+                            <th>Created</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="areasTableBody">
+                        <tr class="loading-row">
+                            <td colspan="8" class="text-center">
+                                <div class="loading-spinner"></div> Loading areas...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Add/Edit Area Modal -->
+        <div class="modal-overlay" id="areaModal">
+            <div class="modal-box">
+                <div class="modal-header">
+                    <h2 id="modalTitle">Add New Area</h2>
+                    <button class="modal-close" id="closeAreaModal">&times;</button>
+                </div>
+
+                <form id="areaForm" class="area-form">
+                    <input type="hidden" id="areaId" name="areaId">
+                    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nameBn">Area Name (বাংলা) *</label>
+                            <input type="text" id="nameBn" name="nameBn" placeholder="এলাকার নাম" required>
+                            <span class="error-msg" id="nameBnError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="nameEn">Area Name (English) *</label>
+                            <input type="text" id="nameEn" name="nameEn" placeholder="Area Name" required>
+                            <span class="error-msg" id="nameEnError"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="code">Area Code *</label>
+                            <input type="text" id="code" name="code" placeholder="e.g., DHA, CHI" required>
+                            <span class="error-msg" id="codeError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="region">Region</label>
+                            <select id="region" name="region">
+                                <option value="">Select Region</option>
+                                <option value="Central">Central</option>
+                                <option value="East">East</option>
+                                <option value="North-East">North-East</option>
+                                <option value="North">North</option>
+                                <option value="South-West">South-West</option>
+                                <option value="South">South</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="descriptionBn">বর্ণনা (বাংলা)</label>
+                            <textarea id="descriptionBn" name="descriptionBn" placeholder="এলাকার বিবরণ"
+                                rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="descriptionEn">Description (English)</label>
+                            <textarea id="descriptionEn" name="descriptionEn" placeholder="Area Description"
+                                rows="3"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" id="cancelAreaBtn">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save Area</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Assign User Modal -->
+        <div class="modal-overlay" id="assignUserModal">
+            <div class="modal-box">
+                <div class="modal-header">
+                    <h2>Assign User to Area</h2>
+                    <button class="modal-close" id="closeAssignModal">&times;</button>
+                </div>
+
+                <form id="assignUserForm" class="assign-form">
+                    <input type="hidden" id="assignAreaId" name="areaId">
+                    <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+
+                    <div class="form-group">
+                        <label for="userSelect">Select User *</label>
+                        <select id="userSelect" name="userId" required>
+                            <option value="">Choose a user...</option>
+                        </select>
+                        <span class="error-msg" id="userSelectError"></span>
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary" id="cancelAssignBtn">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Assign User</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Confirm Overlay -->
+        <div class="confirm-overlay" id="confirmOverlay">
+            <div class="confirm-box">
+                <div class="confirm-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <h3 id="confirmTitle">Confirm Action</h3>
+                <p id="confirmMessage"></p>
+                <div class="confirm-actions">
+                    <button class="btn btn-secondary" id="confirmCancel">Cancel</button>
+                    <button class="btn btn-danger" id="confirmOk">Delete</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast Notification -->
+        <div class="toast-notification" id="toast">
+            <div class="toast-content">
+                <i class="toast-icon fas fa-check-circle"></i>
+                <span id="toastMessage"></span>
+            </div>
+        </div>
+
+        <%- include('../../partials/footer') %>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="/js/areas.js"></script>

@@ -1,0 +1,940 @@
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T18:56:51.173Z"}
+{"level":"info","message":"Login data received","phone":"01973832244f","timestamp":"2025-11-16T18:56:51.175Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T18:56:51.175Z"}
+{"level":"warn","message":"User not found","phone":"01973832244f","timestamp":"2025-11-16T18:56:51.286Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:02:16.624Z"}
+{"level":"info","message":"Login data received","phone":"01973832244","timestamp":"2025-11-16T19:02:16.626Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:02:16.627Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:02:16.638Z","userId":9}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:02:16.703Z","userId":9}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:02:16.703Z","userId":9}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:09:59.631Z"}
+{"level":"info","message":"Login data received","phone":"01973832244","timestamp":"2025-11-16T19:09:59.634Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:09:59.634Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:09:59.640Z","userId":9}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:09:59.705Z","userId":9}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:09:59.705Z","userId":9}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:13:11.598Z"}
+{"level":"info","message":"Login data received","phone":"dfabul1@gmail.com","timestamp":"2025-11-16T19:13:11.600Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:13:11.600Z"}
+{"level":"warn","message":"User not found","phone":"dfabul1@gmail.com","timestamp":"2025-11-16T19:13:11.606Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:13:27.115Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:13:27.116Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:13:27.116Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:13:27.118Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:13:27.184Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:13:27.184Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:14:35.291Z"}
+{"level":"info","message":"Login data received","phone":"01973832213","timestamp":"2025-11-16T19:14:35.292Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:14:35.292Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:14:35.293Z","userId":13}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:14:35.364Z","userId":13}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:14:35.365Z","userId":13}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:14:53.833Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:14:53.834Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:14:53.834Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:14:53.835Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:14:53.903Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:14:53.904Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:16:06.131Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:16:06.131Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:16:06.131Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:16:06.133Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:16:06.198Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:16:06.198Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:16:17.265Z"}
+{"level":"info","message":"Login data received","phone":"01973832524","timestamp":"2025-11-16T19:16:17.267Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:16:17.267Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:16:17.268Z","userId":17}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:16:17.334Z","userId":17}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:16:17.334Z","userId":17}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:16:56.265Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:16:56.265Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:16:56.265Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:16:56.266Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:16:56.333Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:16:56.333Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:19:02.230Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:19:02.232Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:19:02.232Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:19:02.240Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:19:02.307Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:19:02.308Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:19:18.817Z"}
+{"level":"info","message":"Login data received","phone":"01973832524","timestamp":"2025-11-16T19:19:18.818Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:19:18.819Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:19:18.821Z","userId":17}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:19:18.887Z","userId":17}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:19:18.887Z","userId":17}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:20:59.190Z"}
+{"level":"info","message":"Login data received","phone":"01973832524","timestamp":"2025-11-16T19:20:59.192Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:20:59.192Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:20:59.197Z","userId":17}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:20:59.262Z","userId":17}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:20:59.263Z","userId":17}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:21:06.440Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:21:06.440Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:21:06.441Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:21:06.444Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:21:06.510Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:21:06.511Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:22:14.705Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:22:14.705Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:22:14.706Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:22:14.707Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:22:14.784Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:22:14.784Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:23:58.755Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:23:58.757Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:23:58.759Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:23:58.766Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:23:58.831Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:23:58.832Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:25:16.383Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:25:16.383Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:25:16.384Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:25:16.385Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:25:16.454Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:25:16.454Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:26:42.420Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:26:42.421Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:26:42.422Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:26:42.428Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:26:42.494Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:26:42.495Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:26:59.396Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:26:59.398Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:26:59.399Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:26:59.404Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:26:59.468Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:26:59.469Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:27:11.811Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:27:11.813Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:27:11.813Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:27:11.818Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:27:11.882Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:27:11.883Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:29:57.974Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:29:57.976Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:29:57.977Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:29:57.978Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:29:58.047Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:29:58.047Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:30:11.749Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:30:11.750Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:30:11.750Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:30:11.751Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:30:11.821Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:30:11.821Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:30:26.030Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:30:26.031Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:30:26.031Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:30:26.032Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:30:26.103Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:30:26.103Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:30:36.287Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:30:36.287Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:30:36.288Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:30:36.289Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:30:36.356Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:30:36.357Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:30:42.854Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:30:42.854Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:30:42.855Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:30:42.856Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:30:42.923Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:30:42.923Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:30:49.447Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:30:49.447Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:30:49.447Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:30:49.448Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:30:49.514Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:30:49.515Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:31:07.928Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:31:07.928Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:31:07.929Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:31:07.931Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:31:07.999Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:31:08.000Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:31:36.502Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:31:36.503Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:31:36.503Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:31:36.504Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:31:36.570Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:31:36.571Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:34:34.003Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:34:34.006Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:34:34.006Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:34:34.011Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:34:34.085Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:34:34.086Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:34:56.624Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:34:56.625Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:34:56.625Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:34:56.627Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:34:56.696Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:34:56.696Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:36:42.834Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:36:42.837Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:36:42.837Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:36:42.845Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:36:42.912Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:36:42.912Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:38:34.652Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:38:34.653Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:38:34.655Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:38:34.657Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:38:34.723Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:38:34.723Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:39:31.834Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:39:31.836Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:39:31.836Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:39:31.842Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:39:31.913Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:39:31.914Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:40:00.621Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:40:00.621Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:40:00.621Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:40:00.624Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:40:00.693Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:40:00.694Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:44:42.664Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:44:42.665Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:44:42.666Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:44:42.673Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:44:42.737Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:44:42.738Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:45:56.476Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:45:56.479Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:45:56.479Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:45:56.481Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:45:56.549Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:45:56.549Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:46:10.593Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:46:10.595Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:46:10.596Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:46:10.601Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:46:10.668Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:46:10.669Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:46:50.091Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:46:50.092Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:46:50.092Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:46:50.094Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:46:50.161Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:46:50.161Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:49:12.102Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:49:12.104Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:49:12.104Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:49:12.112Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:49:12.178Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:49:12.179Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:49:39.939Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:49:39.939Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:49:39.939Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:49:39.941Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:49:40.008Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:49:40.008Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:54:59.743Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:54:59.745Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:54:59.746Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:54:59.751Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:54:59.821Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:54:59.822Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:55:21.243Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:55:21.243Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:55:21.244Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:55:21.245Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:55:21.313Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:55:21.313Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:58:53.631Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T19:58:53.633Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:58:53.633Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:58:53.640Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:58:53.705Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:58:53.705Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:59:20.634Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:59:20.634Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:59:20.635Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:59:20.637Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:59:20.715Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:59:20.715Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T19:59:52.150Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T19:59:52.155Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T19:59:52.155Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T19:59:52.163Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T19:59:52.230Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T19:59:52.231Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:00:20.642Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:00:20.642Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:00:20.642Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:00:20.644Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:00:20.711Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:00:20.711Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:02:53.692Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:02:53.694Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:02:53.695Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:02:53.700Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:02:53.765Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:02:53.766Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:03:35.329Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:03:35.329Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:03:35.329Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:03:35.333Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:03:35.408Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:03:35.409Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:10:56.416Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:10:56.417Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:10:56.418Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:10:56.425Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:10:56.494Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:10:56.495Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:12:59.788Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:12:59.790Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:12:59.791Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:12:59.797Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:12:59.861Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:12:59.862Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:16:22.827Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:16:22.829Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:16:22.831Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:16:22.837Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:16:22.908Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:16:22.908Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:16:36.000Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:16:36.001Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:16:36.001Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:16:36.004Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:16:36.147Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:16:36.148Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:16:57.017Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:16:57.019Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:16:57.020Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:16:57.083Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:16:57.166Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:16:57.167Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:17:21.775Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:17:21.775Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:17:21.776Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:17:21.777Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:17:21.843Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:17:21.844Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:18:06.136Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:18:06.137Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:18:06.137Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:18:06.139Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:18:06.211Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:18:06.211Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:19:06.718Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:19:06.719Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:19:06.719Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:19:06.720Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:19:06.786Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:19:06.786Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:20:47.054Z"}
+{"level":"info","message":"Login data received","phone":"01973832211","timestamp":"2025-11-16T20:20:47.055Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:20:47.055Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:20:47.057Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:20:47.125Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:20:47.125Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:22:43.104Z"}
+{"level":"info","message":"Login data received","phone":"0197383086","timestamp":"2025-11-16T20:22:43.105Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:22:43.106Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:22:43.108Z","userId":19}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:22:43.171Z","userId":19}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:22:43.171Z","userId":19}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:31:00.836Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:31:00.837Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:31:00.837Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:31:00.839Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:31:00.908Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:31:00.909Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:31:12.996Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:31:12.996Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:31:12.997Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:31:12.998Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:31:13.065Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:31:13.066Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:34:33.068Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:34:33.068Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:34:33.069Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:34:33.070Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:34:33.135Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:34:33.136Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:34:41.931Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:34:41.931Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:34:41.932Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:34:41.932Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:34:41.999Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:34:41.999Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:34:59.323Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:34:59.323Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:34:59.323Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:34:59.324Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:34:59.393Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:34:59.393Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:38:02.406Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:38:02.408Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:38:02.409Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:38:02.416Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:38:02.483Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:38:02.484Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:38:36.706Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:38:36.707Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:38:36.707Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:38:36.708Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:38:36.774Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:38:36.774Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:45:21.803Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:45:21.805Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:45:21.805Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:45:21.810Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:45:21.881Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:45:21.882Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:51:27.366Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T20:51:27.368Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:51:27.368Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:51:27.374Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:51:27.441Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:51:27.442Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:52:27.081Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T20:52:27.081Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:52:27.082Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:52:27.083Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:52:27.152Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:52:27.153Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:03:06.490Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T21:03:06.493Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:03:06.493Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:03:06.500Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:03:06.566Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:03:06.567Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:28:48.597Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T21:28:48.599Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:28:48.599Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:28:48.604Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:28:48.672Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:28:48.672Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:29:12.386Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:29:12.387Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:29:12.388Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:29:12.389Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:29:12.460Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:29:12.460Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:33:40.075Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:33:40.077Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:33:40.077Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:33:40.082Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:33:40.149Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:33:40.150Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:33:58.305Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T21:33:58.306Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:33:58.306Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:33:58.307Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:33:58.375Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:33:58.375Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:37:10.948Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T21:37:10.950Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:37:10.950Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:37:10.956Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:37:11.029Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:37:11.029Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:37:20.297Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:37:20.297Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:37:20.297Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:37:20.299Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:37:20.376Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:37:20.376Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:37:34.290Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:37:34.292Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:37:34.292Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:37:34.297Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:37:34.368Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:37:34.369Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:37:55.092Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:37:55.094Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:37:55.094Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:37:55.100Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:37:55.172Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:37:55.172Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:38:38.635Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T21:38:38.637Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:38:38.637Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:38:38.643Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:38:38.709Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:38:38.710Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:38:47.985Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:38:47.985Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:38:47.986Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:38:47.987Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:38:48.068Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:38:48.070Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:40:06.353Z"}
+{"level":"info","message":"Login data received","phone":"01973542012","timestamp":"2025-11-16T21:40:06.353Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:40:06.354Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:40:06.355Z","userId":20}
+{"level":"warn","message":"Wrong password attempt","phone":"01973542012","timestamp":"2025-11-16T21:40:06.421Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:40:14.648Z"}
+{"level":"info","message":"Login data received","phone":"01973542012","timestamp":"2025-11-16T21:40:14.649Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:40:14.649Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:40:14.650Z","userId":20}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:40:14.716Z","userId":20}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:40:14.716Z","userId":20}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:41:50.936Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:41:50.940Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:41:50.941Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:41:50.942Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:41:51.011Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:41:51.011Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:42:07.497Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:42:07.498Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:42:07.498Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:42:07.499Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:42:07.565Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:42:07.565Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:42:21.320Z"}
+{"level":"info","message":"Login data received","phone":"01973542012","timestamp":"2025-11-16T21:42:21.321Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:42:21.321Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:42:21.322Z","userId":20}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:42:21.388Z","userId":20}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:42:21.388Z","userId":20}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:58:47.531Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T21:58:47.533Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:58:47.534Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:58:47.540Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:58:47.604Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:58:47.605Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:59:21.045Z"}
+{"level":"info","message":"Login data received","phone":"01973542012","timestamp":"2025-11-16T21:59:21.045Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:59:21.046Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:59:21.047Z","userId":20}
+{"level":"warn","message":"Wrong password attempt","phone":"01973542012","timestamp":"2025-11-16T21:59:21.115Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:59:23.814Z"}
+{"level":"info","message":"Login data received","phone":"01973542012","timestamp":"2025-11-16T21:59:23.814Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:59:23.815Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:59:23.816Z","userId":20}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:59:23.881Z","userId":20}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:59:23.881Z","userId":20}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T23:00:01.241Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T23:00:01.242Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T23:00:01.242Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T23:00:01.243Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T23:00:01.313Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T23:00:01.313Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T23:04:32.989Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T23:04:32.990Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T23:04:32.991Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T23:04:32.997Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T23:04:33.066Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T23:04:33.067Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T23:14:38.391Z"}
+{"level":"info","message":"Login data received","phone":"0197383086","timestamp":"2025-11-16T23:14:38.392Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T23:14:38.393Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T23:14:38.396Z","userId":19}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T23:14:38.464Z","userId":19}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T23:14:38.464Z","userId":19}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T23:28:33.248Z"}
+{"level":"info","message":"Login data received","phone":"01973835421","timestamp":"2025-11-16T23:28:33.253Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T23:28:33.254Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T23:28:33.259Z","userId":18}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T23:28:33.326Z","userId":18}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T23:28:33.327Z","userId":18}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T23:51:11.329Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T23:51:11.329Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T23:51:11.329Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T23:51:11.331Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T23:51:11.398Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T23:51:11.398Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T23:56:25.530Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-16T23:56:25.535Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T23:56:25.536Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T23:56:25.541Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T23:56:25.608Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T23:56:25.608Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T00:50:46.760Z"}
+{"level":"info","message":"Login data received","phone":"0197383086","timestamp":"2025-11-17T00:50:46.764Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T00:50:46.765Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T00:50:46.773Z","userId":19}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T00:50:46.841Z","userId":19}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T00:50:46.842Z","userId":19}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T00:57:05.718Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T00:57:05.719Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T00:57:05.720Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T00:57:05.721Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T00:57:05.804Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T00:57:05.804Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:04:11.647Z"}
+{"level":"info","message":"Login data received","phone":"jab54ir1330@gmail.com","timestamp":"2025-11-17T01:04:11.648Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:04:11.648Z"}
+{"level":"warn","message":"User not found","phone":"jab54ir1330@gmail.com","timestamp":"2025-11-17T01:04:11.650Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:04:15.920Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T01:04:15.920Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:04:15.921Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:04:15.923Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:04:15.991Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:04:15.991Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:08:21.509Z"}
+{"level":"info","message":"Login data received","phone":"01900000000","timestamp":"2025-11-17T01:08:21.509Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:08:21.509Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:08:21.510Z","userId":23}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:08:21.574Z","userId":23}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:08:21.574Z","userId":23}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:09:26.638Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T01:09:26.638Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:09:26.639Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:09:26.640Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:09:26.708Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:09:26.708Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:10:13.581Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T01:10:13.581Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:10:13.581Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:10:13.582Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:10:13.646Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:10:13.647Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:10:34.447Z"}
+{"level":"info","message":"Login data received","phone":"01900000000","timestamp":"2025-11-17T01:10:34.447Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:10:34.447Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:10:34.448Z","userId":23}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:10:34.513Z","userId":23}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:10:34.513Z","userId":23}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:11:04.828Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T01:11:04.828Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:11:04.828Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:11:04.830Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:11:04.903Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:11:04.903Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:11:16.336Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T01:11:16.336Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:11:16.337Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:11:16.339Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:11:16.405Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:11:16.406Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:11:22.389Z"}
+{"level":"info","message":"Login data received","phone":"01900000000","timestamp":"2025-11-17T01:11:22.389Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:11:22.390Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:11:22.391Z","userId":23}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:11:22.458Z","userId":23}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:11:22.459Z","userId":23}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T01:12:03.804Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T01:12:03.805Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T01:12:03.805Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T01:12:03.807Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T01:12:03.876Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T01:12:03.877Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T06:19:36.733Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T06:19:36.735Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T06:19:36.736Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T06:19:36.816Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T06:19:36.914Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T06:19:36.914Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T06:27:24.344Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T06:27:24.346Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T06:27:24.347Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T06:27:24.348Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T06:27:24.413Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T06:27:24.414Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T06:54:06.240Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T06:54:06.241Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T06:54:06.241Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T06:54:06.242Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T06:54:06.310Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T06:54:06.310Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T06:58:11.928Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T06:58:11.929Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T06:58:11.931Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T06:58:11.933Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T06:58:11.999Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T06:58:12.000Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T07:03:40.670Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T07:03:40.672Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T07:03:40.673Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T07:03:40.678Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T07:03:40.744Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T07:03:40.744Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T07:06:30.751Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T07:06:30.753Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T07:06:30.753Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T07:06:30.758Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T07:06:30.829Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T07:06:30.830Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T07:22:52.113Z"}
+{"level":"info","message":"Login data received","phone":"01973832999","timestamp":"2025-11-17T07:22:52.113Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T07:22:52.114Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T07:22:52.117Z","userId":22}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T07:22:52.185Z","userId":22}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T07:22:52.186Z","userId":22}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:00:25.556Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T08:00:25.558Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:00:25.559Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T08:00:25.565Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T08:00:25.638Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T08:00:25.639Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:05:17.722Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T08:05:17.723Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:05:17.724Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T08:05:17.729Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T08:05:17.804Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T08:05:17.805Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:05:22.971Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T08:05:22.977Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:05:22.978Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T08:05:22.983Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T08:05:23.061Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T08:05:23.061Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:07:41.674Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T08:07:41.676Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:07:41.677Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T08:07:41.683Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T08:07:41.752Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T08:07:41.752Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:08:32.985Z"}
+{"level":"info","message":"Login data received","phone":"01973832255","timestamp":"2025-11-17T08:08:32.987Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:08:32.987Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T08:08:32.993Z","userId":15}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T08:08:33.062Z","userId":15}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T08:08:33.063Z","userId":15}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:53:32.760Z"}
+{"level":"info","message":"Login data received","phone":"01973832297","timestamp":"2025-11-17T08:53:32.761Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:53:32.762Z"}
+{"level":"warn","message":"User not found","phone":"01973832297","timestamp":"2025-11-17T08:53:33.012Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:58:12.253Z"}
+{"level":"info","message":"Login data received","phone":"01973832297","timestamp":"2025-11-17T08:58:12.254Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:58:12.254Z"}
+{"level":"warn","message":"User not found","phone":"01973832297","timestamp":"2025-11-17T08:58:12.257Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:59:17.452Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T08:59:17.453Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:59:17.453Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T08:59:17.455Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T08:59:17.514Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T08:59:17.514Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T08:59:52.477Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T08:59:52.478Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T08:59:52.478Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T08:59:52.480Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T08:59:52.539Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T08:59:52.541Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T09:00:00.956Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T09:00:00.957Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T09:00:00.957Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T09:00:00.959Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T09:00:01.017Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T09:00:01.017Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T09:33:51.646Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T09:33:51.648Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T09:33:51.649Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T09:33:51.669Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T09:33:51.729Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T09:33:51.729Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T09:34:46.900Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T09:34:46.902Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T09:34:46.902Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T09:34:46.908Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T09:34:46.965Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T09:34:46.966Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T09:35:11.083Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T09:35:11.084Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T09:35:11.084Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T09:35:11.089Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T09:35:11.147Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T09:35:11.148Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T09:44:54.562Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T09:44:54.563Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T09:44:54.564Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T09:44:54.569Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T09:44:54.626Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T09:44:54.626Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T10:58:26.261Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-17T10:58:26.263Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T10:58:26.263Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T10:58:26.265Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T10:58:26.322Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T10:58:26.323Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T11:15:49.916Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T11:15:49.917Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T11:15:49.917Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T11:15:49.937Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T11:15:49.998Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T11:15:49.998Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-17T11:47:44.657Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-17T11:47:44.658Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-17T11:47:44.658Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-17T11:47:44.660Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-17T11:47:44.716Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-17T11:47:44.716Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T18:06:59.272Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T18:06:59.274Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T18:06:59.274Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T18:06:59.281Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T18:06:59.337Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T18:06:59.338Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T18:07:22.578Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T18:07:22.580Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T18:07:22.580Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T18:07:22.585Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T18:07:22.643Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T18:07:22.644Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T18:16:06.035Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T18:16:06.036Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T18:16:06.036Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T18:16:06.037Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T18:16:06.097Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T18:16:06.097Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T18:17:35.278Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T18:17:35.278Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T18:17:35.279Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T18:17:35.280Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T18:17:35.341Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T18:17:35.342Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:36:13.204Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T20:36:13.205Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:36:13.205Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:36:13.210Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:36:13.270Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:36:13.270Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:38:11.154Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T20:38:11.154Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:38:11.154Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:38:11.156Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:38:11.214Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:38:11.214Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:41:56.506Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T20:41:56.508Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:41:56.508Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:41:56.517Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:41:56.574Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:41:56.575Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:42:56.850Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T20:42:56.851Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:42:56.851Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:42:56.853Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:42:56.910Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:42:56.911Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:43:31.876Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T20:43:31.877Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:43:31.878Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:43:31.883Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:43:31.942Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:43:31.943Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:44:09.389Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T20:44:09.391Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:44:09.391Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:44:09.395Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:44:09.457Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:44:09.457Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:45:19.209Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T20:45:19.213Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:45:19.213Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:45:19.218Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:45:19.281Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:45:19.282Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T20:46:06.240Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T20:46:06.240Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T20:46:06.241Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T20:46:06.243Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T20:46:06.301Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T20:46:06.301Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:34:15.440Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T21:34:15.442Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:34:15.442Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:34:15.517Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:34:15.575Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:34:15.576Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:34:26.429Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T21:34:26.431Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:34:26.431Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:34:26.440Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:34:26.500Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:34:26.500Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:34:34.038Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T21:34:34.040Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:34:34.041Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:34:34.050Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:34:34.111Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:34:34.111Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:35:16.719Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T21:35:16.720Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:35:16.720Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:35:16.727Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:35:16.788Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:35:16.788Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:49:06.729Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T21:49:06.731Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:49:06.733Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:49:06.793Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:49:06.854Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:49:06.855Z","userId":11}
+{"level":"error","message":"Area creation error: Cannot read properties of undefined (reading 'id')","timestamp":"2025-11-16T21:49:47.284Z"}
+{"level":"error","message":"Area creation error: Cannot read properties of undefined (reading 'id')","timestamp":"2025-11-16T21:49:59.637Z"}
+{"level":"error","message":"Area creation error: Cannot read properties of undefined (reading 'id')","timestamp":"2025-11-16T21:50:00.333Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:51:24.142Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T21:51:24.143Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:51:24.143Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:51:24.145Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:51:24.204Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:51:24.205Z","userId":10}
+{"level":"error","message":"Area creation error: Cannot read properties of undefined (reading 'id')","timestamp":"2025-11-16T21:51:52.621Z"}
+{"level":"error","message":"Area creation error: Cannot read properties of undefined (reading 'id')","timestamp":"2025-11-16T21:51:56.313Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:54:25.281Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T21:54:25.282Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:54:25.283Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:54:25.290Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:54:25.347Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:54:25.347Z","userId":10}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T21:55:13.065Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T21:55:13.065Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T21:55:13.066Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T21:55:13.067Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T21:55:13.124Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T21:55:13.125Z","userId":10}
+{"level":"info","message":"requireLogin - check","path":"/add","sessionUser":false,"timestamp":"2025-11-16T22:02:51.575Z"}
+{"level":"info","message":"requireLogin - redirecting to /login","path":"/add","timestamp":"2025-11-16T22:02:51.587Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T22:02:53.792Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T22:02:53.793Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T22:02:53.794Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T22:02:53.851Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T22:02:53.911Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T22:02:53.911Z","userId":10}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":false,"timestamp":"2025-11-16T22:03:44.663Z"}
+{"level":"info","message":"requireLogin - redirecting to /login","path":"/","timestamp":"2025-11-16T22:03:44.664Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T22:03:46.914Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T22:03:46.915Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T22:03:46.915Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T22:03:46.922Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T22:03:46.982Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T22:03:46.983Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T22:05:54.064Z"}
+{"level":"info","message":"Login data received","phone":"01973832293","timestamp":"2025-11-16T22:05:54.065Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T22:05:54.065Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T22:05:54.067Z","userId":10}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T22:05:54.124Z","userId":10}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T22:05:54.124Z","userId":10}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:06:04.293Z"}
+{"level":"info","message":"requireLogin - check","path":"/add","sessionUser":true,"timestamp":"2025-11-16T22:06:06.820Z"}
+{"level":"info","message":"requireLogin - check","path":"/add","sessionUser":true,"timestamp":"2025-11-16T22:06:46.327Z"}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:06:52.930Z"}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:06:54.501Z"}
+{"level":"info","message":"requireLogin - check","path":"/add","sessionUser":true,"timestamp":"2025-11-16T22:07:36.008Z"}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:07:39.408Z"}
+{"level":"info","message":"requireLogin - check","path":"/add","sessionUser":true,"timestamp":"2025-11-16T22:08:56.857Z"}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:09:47.443Z"}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:11:18.161Z"}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:11:51.357Z"}
+{"level":"info","message":"requireLogin - check","path":"/add","sessionUser":true,"timestamp":"2025-11-16T22:11:55.258Z"}
+{"level":"info","message":"requireLogin - check","path":"/","sessionUser":true,"timestamp":"2025-11-16T22:12:15.962Z"}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T22:17:21.271Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T22:17:21.272Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T22:17:21.273Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T22:17:21.279Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T22:17:21.340Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T22:17:21.341Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T22:18:04.888Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T22:18:04.889Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T22:18:04.890Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T22:18:04.897Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T22:18:04.957Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T22:18:04.958Z","userId":11}
+{"level":"info","message":"LOGIN STARTED","timestamp":"2025-11-16T22:47:40.442Z"}
+{"level":"info","message":"Login data received","phone":"01973832210","timestamp":"2025-11-16T22:47:40.443Z"}
+{"level":"info","message":"Checking user in database...","timestamp":"2025-11-16T22:47:40.444Z"}
+{"level":"info","message":"User found","timestamp":"2025-11-16T22:47:40.536Z","userId":11}
+{"level":"info","message":"Password matched, creating session","timestamp":"2025-11-16T22:47:40.612Z","userId":11}
+{"level":"info","message":"LOGIN SUCCESS","timestamp":"2025-11-16T22:47:40.616Z","userId":11}

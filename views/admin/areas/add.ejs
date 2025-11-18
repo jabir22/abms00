@@ -1,0 +1,333 @@
+<%- include('../../partials/header') %>
+    <%- include('../../partials/sidebar') %>
+
+        <link rel="stylesheet" href="/css/add-area.css">
+
+        <div class="main-content">
+            <!-- Header Section -->
+            <div class="add-area-header">
+                <div class="header-breadcrumb">
+                    <a href="/admin/areas"><i class="fas fa-arrow-left"></i> Back to Areas</a>
+                </div>
+                <h1 class="page-title">
+                    <i class="fas fa-location-plus"></i> Add New Area
+                </h1>
+                <p class="page-subtitle">Create a new area and set up its properties</p>
+            </div>
+
+            <!-- Main Container -->
+            <div class="add-area-container">
+                <div class="form-section">
+                    <div class="section-header">
+                        <h2><i class="fas fa-info-circle"></i> Basic Information</h2>
+                        <p class="section-description">Fill in the basic details about the new area</p>
+                    </div>
+
+                    <form id="addAreaFormExtended" class="extended-area-form">
+                        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+
+                        <!-- Names Section -->
+                        <div class="form-card">
+                            <div class="card-title">
+                                <i class="fas fa-heading"></i> Area Names
+                            </div>
+                            <div class="card-content">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="nameBn">Area Name (বাংলা) *</label>
+                                        <input type="text" id="nameBn" name="nameBn" placeholder="e.g., ঢাকা" required>
+                                        <span class="error-msg" id="nameBnError"></span>
+                                        <small class="form-hint">Enter area name in Bengali</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="nameEn">Area Name (English) *</label>
+                                        <input type="text" id="nameEn" name="nameEn" placeholder="e.g., Dhaka" required>
+                                        <span class="error-msg" id="nameEnError"></span>
+                                        <small class="form-hint">Enter area name in English</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Code & Region Section -->
+                        <div class="form-card">
+                            <div class="card-title">
+                                <i class="fas fa-barcode"></i> Identification
+                            </div>
+                            <div class="card-content">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="code">Area Code *</label>
+                                        <input type="text" id="code" name="code" placeholder="e.g., DHA" maxlength="10"
+                                            required>
+                                        <span class="error-msg" id="codeError"></span>
+                                        <small class="form-hint">Unique code for quick identification (max 10
+                                            chars)</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="region">Region/Zone *</label>
+                                        <select id="region" name="region" required>
+                                            <option value="">Select a region...</option>
+                                            <option value="Central">Central (কেন্দ্রীয়)</option>
+                                            <option value="East">East (পূর্ব)</option>
+                                            <option value="North-East">North-East (উত্তর-পূর্ব)</option>
+                                            <option value="North">North (উত্তর)</option>
+                                            <option value="South-West">South-West (দক্ষিণ-পশ্চিম)</option>
+                                            <option value="South">South (দক্ষিণ)</option>
+                                        </select>
+                                        <span class="error-msg" id="regionError"></span>
+                                        <small class="form-hint">Select the geographical region</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Description Section -->
+                        <div class="form-card">
+                            <div class="card-title">
+                                <i class="fas fa-align-left"></i> Description
+                            </div>
+                            <div class="card-content">
+                                <div class="form-group full-width">
+                                    <label for="descriptionBn">বর্ণনা (বাংলা)</label>
+                                    <textarea id="descriptionBn" name="descriptionBn"
+                                        placeholder="এলাকার বিস্তারিত বর্ণনা..." rows="4"></textarea>
+                                    <small class="form-hint">Provide details about this area in Bengali</small>
+                                    <div class="char-count"><span id="charCountBn">0</span>/500</div>
+                                </div>
+
+                                <div class="form-group full-width">
+                                    <label for="descriptionEn">Description (English)</label>
+                                    <textarea id="descriptionEn" name="descriptionEn"
+                                        placeholder="Detailed description of this area..." rows="4"></textarea>
+                                    <small class="form-hint">Provide details about this area in English</small>
+                                    <div class="char-count"><span id="charCountEn">0</span>/500</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Preview Section -->
+                        <div class="preview-section">
+                            <div class="section-header">
+                                <h2><i class="fas fa-eye"></i> Preview</h2>
+                                <p class="section-description">How your area will appear in the system</p>
+                            </div>
+
+                            <div class="preview-card">
+                                <div class="preview-header">
+                                    <div class="preview-badge" id="previewCode">CODE</div>
+                                    <div class="preview-region" id="previewRegion">Region</div>
+                                </div>
+                                <div class="preview-body">
+                                    <div class="preview-name-bn" id="previewNameBn">ঢাকা</div>
+                                    <div class="preview-name-en" id="previewNameEn">Dhaka</div>
+                                    <div class="preview-description" id="previewDescription">Area description will
+                                        appear here...</div>
+                                </div>
+                                <div class="preview-footer">
+                                    <small>Preview updates as you type</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Form Actions -->
+                        <div class="form-actions-extended">
+                            <a href="/admin/areas" class="btn btn-secondary btn-lg">
+                                <i class="fas fa-times"></i> Cancel
+                            </a>
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                <i class="fas fa-check"></i> Create Area
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Info Sidebar -->
+                <div class="info-sidebar">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Helpful Tips</h3>
+                        <ul class="tips-list">
+                            <li>
+                                <strong>Area Code:</strong> Use short, memorable codes like DHA, CHI for quick reference
+                            </li>
+                            <li>
+                                <strong>Names:</strong> Provide both Bengali and English names for better accessibility
+                            </li>
+                            <li>
+                                <strong>Region:</strong> Select the appropriate geographical region for organization
+                            </li>
+                            <li>
+                                <strong>Description:</strong> Add context that helps team members understand the area
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon" style="color: #2196F3;">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <h3>After Creation</h3>
+                        <ul class="tips-list">
+                            <li>You can assign users to this area</li>
+                            <li>You can edit area details anytime</li>
+                            <li>You can manage permissions by role</li>
+                            <li>Area will be available in the system immediately</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card success-highlight">
+                        <div class="info-icon" style="color: #4CAF50;">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Best Practices</h3>
+                        <ul class="tips-list">
+                            <li>Use meaningful area names</li>
+                            <li>Keep descriptions concise</li>
+                            <li>Use consistent region naming</li>
+                            <li>Avoid duplicate area codes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast Notification -->
+        <div class="toast-notification" id="toast">
+            <div class="toast-content">
+                <i class="toast-icon fas fa-check-circle"></i>
+                <span id="toastMessage"></span>
+            </div>
+        </div>
+
+        <%- include('../../partials/footer') %>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    // Live preview updates
+                    const updatePreview = () => {
+                        const code = $('#code').val().toUpperCase() || 'CODE';
+                        const region = $('#region').val() || 'Region';
+                        const nameBn = $('#nameBn').val() || 'এলাকার নাম';
+                        const nameEn = $('#nameEn').val() || 'Area Name';
+                        const desc = $('#descriptionBn').val() || $('#descriptionEn').val() || 'Area description...';
+
+                        $('#previewCode').text(code);
+                        $('#previewRegion').text(region);
+                        $('#previewNameBn').text(nameBn);
+                        $('#previewNameEn').text(nameEn);
+                        $('#previewDescription').text(desc.substring(0, 100) + (desc.length > 100 ? '...' : ''));
+                    };
+
+                    // Character counters
+                    $('#descriptionBn').on('input', function () {
+                        $('#charCountBn').text($(this).val().length);
+                    });
+
+                    $('#descriptionEn').on('input', function () {
+                        $('#charCountEn').text($(this).val().length);
+                    });
+
+                    // Preview updates on input
+                    $('#nameBn, #nameEn, #code, #region, #descriptionBn, #descriptionEn').on('input change', updatePreview);
+
+                    // Form submission
+                    $('#addAreaFormExtended').submit(function (e) {
+                        e.preventDefault();
+
+                        // Validate
+                        let isValid = true;
+                        const nameBn = $('#nameBn').val().trim();
+                        const nameEn = $('#nameEn').val().trim();
+                        const code = $('#code').val().trim();
+                        const region = $('#region').val();
+
+                        $('.error-msg').removeClass('show').text('');
+
+                        if (!nameBn) {
+                            $('#nameBnError').text('Bengali name is required').addClass('show');
+                            isValid = false;
+                        }
+                        if (!nameEn) {
+                            $('#nameEnError').text('English name is required').addClass('show');
+                            isValid = false;
+                        }
+                        if (!code) {
+                            $('#codeError').text('Area code is required').addClass('show');
+                            isValid = false;
+                        }
+                        if (!region) {
+                            $('#regionError').text('Region is required').addClass('show');
+                            isValid = false;
+                        }
+
+                        if (!isValid) return;
+
+                        const data = {
+                            name_bn: nameBn,
+                            name_en: nameEn,
+                            code: code.toUpperCase(),
+                            region: region,
+                            description_bn: $('#descriptionBn').val().trim(),
+                            description_en: $('#descriptionEn').val().trim(),
+                            _csrf: $('input[name="_csrf"]').val()
+                        };
+
+                        $.ajax({
+                            url: '/api/areas/create',
+                            type: 'POST',
+                            dataType: 'json',
+                            contentType: 'application/json',
+                            data: JSON.stringify(data),
+                            success: function (response) {
+                                if (response.success) {
+                                    showToast('Area created successfully!', 'success');
+                                    setTimeout(() => {
+                                        window.location.href = '/admin/areas';
+                                    }, 1500);
+                                } else {
+                                    showToast(response.message, 'error');
+                                }
+                            },
+                            error: function (error) {
+                                const message = error.responseJSON?.message || 'Failed to create area';
+                                showToast(message, 'error');
+                            }
+                        });
+                    });
+
+                    function showToast(message, type = 'success') {
+                        const toast = $('#toast');
+                        const icon = toast.find('.toast-icon');
+
+                        toast.removeClass('success error warning');
+                        toast.addClass(type);
+
+                        icon.removeClass('fa-check-circle fa-exclamation-circle fa-warning');
+                        switch (type) {
+                            case 'success':
+                                icon.addClass('fa-check-circle');
+                                break;
+                            case 'error':
+                                icon.addClass('fa-exclamation-circle');
+                                break;
+                            case 'warning':
+                                icon.addClass('fa-warning');
+                                break;
+                        }
+
+                        $('#toastMessage').text(message);
+                        toast.addClass('show');
+
+                        setTimeout(() => {
+                            toast.removeClass('show');
+                        }, 3000);
+                    }
+
+                    // Initial preview
+                    updatePreview();
+                });
+            </script>

@@ -1,0 +1,150 @@
+<aside class="sidebar">
+  <ul class="menu">
+    <li><a href="/" class="menu-link active"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+
+    <li class="menu-item has-sub">
+      <button class="submenu-toggle">
+        <i class="fa-solid fa-wallet"></i> Accounts
+        <i class="fa-solid fa-chevron-down chev"></i>
+      </button>
+      <ul class="submenu">
+        <li><a href="#"><i class="fa-regular fa-rectangle-list"></i> All Accounts</a></li>
+        <li><a href="#"><i class="fa-solid fa-plus"></i> Add Account</a></li>
+        <li><a href="#"><i class="fa-solid fa-money-bill-transfer"></i> Transactions</a></li>
+        <li><a href="#"><i class="fa-solid fa-file-invoice-dollar"></i> Account Statements</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item has-sub">
+      <button class="submenu-toggle">
+        <i class="fa-solid fa-truck-field"></i> Suppliers
+        <i class="fa-solid fa-chevron-down chev"></i>
+      </button>
+      <ul class="submenu">
+        <li><a href="#"><i class="fa-regular fa-rectangle-list"></i> All Suppliers</a></li>
+        <li><a href="#"><i class="fa-solid fa-user-plus"></i> Add Supplier</a></li>
+        <li><a href="#"><i class="fa-solid fa-file-circle-check"></i> Supplier Ledger</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item has-sub">
+      <button class="submenu-toggle">
+        <i class="fa-solid fa-cart-shopping"></i> Purchases
+        <i class="fa-solid fa-chevron-down chev"></i>
+      </button>
+      <ul class="submenu">
+        <li><a href="#"><i class="fa-regular fa-rectangle-list"></i> All Purchases</a></li>
+        <li><a href="#"><i class="fa-solid fa-plus"></i> Add Purchase</a></li>
+        <li><a href="#"><i class="fa-solid fa-file-circle-plus"></i> Purchase Reports</a></li>
+      </ul>
+    </li>
+
+    <li class="menu-item has-sub">
+      <button class="submenu-toggle">
+        <i class="fa-solid fa-sack-dollar"></i> Sales
+        <i class="fa-solid fa-chevron-down chev"></i>
+      </button>
+      <ul class="submenu">
+        <li><a href="#"><i class="fa-regular fa-rectangle-list"></i> All Sales</a></li>
+        <li><a href="#"><i class="fa-solid fa-plus"></i> Add Sale</a></li>
+        <li><a href="#"><i class="fa-solid fa-file-invoice"></i> Sales Reports</a></li>
+      </ul>
+    </li>
+
+    <% const areaPerms=['view_areas','create_area','update_area','delete_area','assign_area']; const canSeeAreas=!!(
+      user && ( user.role_slug==='owner' || ( Array.isArray(userPermissions) && areaPerms.some(p=>
+      userPermissions.includes(p))
+      )
+      )
+      );
+      %>
+
+      <% if (canSeeAreas) { %>
+        <li class="menu-item has-sub">
+          <button class="submenu-toggle">
+            <i class="fa-solid fa-map-location-dot"></i> Areas
+            <i class="fa-solid fa-chevron-down chev"></i>
+          </button>
+          <ul class="submenu">
+            <% const canViewAll=Array.isArray(userPermissions) && ( userPermissions.includes('view_areas') ||
+              userPermissions.includes('read_area') || userPermissions.includes('update_area') ||
+              userPermissions.includes('delete_area') ); const canAdd=Array.isArray(userPermissions) &&
+              userPermissions.includes('create_area'); const canAssign=Array.isArray(userPermissions) &&
+              userPermissions.includes('assign_area'); %>
+
+              <% if (canViewAll) { %>
+                <li><a href="/admin/areas"><i class="fa-solid fa-map"></i> All Areas</a></li>
+                <% } %>
+
+                  <% if (canAdd) { %>
+                    <li><a href="/admin/areas/add"><i class="fa-solid fa-location-plus"></i> Add Area</a></li>
+                    <% } %>
+
+                      <% if (canAssign) { %>
+                        <li><a href="/admin/areas/assign"><i class="fa-solid fa-users-between-lines"></i> User
+                            Assignment</a></li>
+                        <% } %>
+          </ul>
+        </li>
+        <% } %>
+
+          <li class="menu-item has-sub">
+            <button class="submenu-toggle">
+              <i class="fa-solid fa-chart-line"></i> Reports
+              <i class="fa-solid fa-chevron-down chev"></i>
+            </button>
+            <ul class="submenu">
+              <li><a href="#"><i class="fa-solid fa-chart-pie"></i> Profit & Loss</a></li>
+              <li><a href="#"><i class="fa-solid fa-coins"></i> Income Statement</a></li>
+              <li><a href="#"><i class="fa-solid fa-building-columns"></i> Expense Report</a></li>
+              <li><a href="#"><i class="fa-solid fa-chart-bar"></i> Monthly Overview</a></li>
+            </ul>
+          </li>
+
+          <!-- Permission Logic -->
+          <% const canManageRoles=!!( user && ( user.role_slug==='owner' || ( Array.isArray(userPermissions) && (
+            userPermissions.includes('create_role') || userPermissions.includes('edit_role') ||
+            userPermissions.includes('delete_role') ) ) ) ); const canViewUsers=!!( user && ( user.role_slug==='owner'
+            || ( Array.isArray(userPermissions) && userPermissions.includes('view_users') ) ) ); const
+            canSeeAdmin=canManageRoles || canViewUsers; %>
+
+            <% if (canSeeAdmin) { %>
+              <li class="menu-item has-sub">
+                <button class="submenu-toggle">
+                  <i class="fa-solid fa-shield-halved"></i> Admin
+                  <i class="fa-solid fa-chevron-down chev"></i>
+                </button>
+                <ul class="submenu">
+                  <% if (canManageRoles) { %>
+                    <li><a href="/admin/roles"><i class="fa-solid fa-user-shield"></i> Role Management</a></li>
+                    <% } %>
+
+                      <% if (canViewUsers) { %>
+                        <li><a href="/admin/users"><i class="fa-solid fa-users-gear"></i> User Management</a></li>
+                        <% } %>
+
+                          <li><a href="/admin/logs"><i class="fa-solid fa-list-check"></i> Activity Logs</a></li>
+                </ul>
+              </li>
+              <% } %>
+
+                <li class="menu-item has-sub">
+                  <button class="submenu-toggle">
+                    <i class="fa-solid fa-gear"></i> Settings
+                    <i class="fa-solid fa-chevron-down chev"></i>
+                  </button>
+                  <ul class="submenu">
+                    <li><a href="/profile"><i class="fa-regular fa-user"></i> Profile</a></li>
+                    <li><a href="#"><i class="fa-solid fa-sliders"></i> System Settings</a></li>
+                    <li><a href="#"><i class="fa-solid fa-database"></i> Backup & Restore</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#" id="logoutBtn" class="menu-link">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                  </a>
+                </li>
+
+  </ul>
+</aside>

@@ -1,0 +1,142 @@
+<%- include('../partials/header') %>
+
+<!-- =============== LAYOUT =============== -->
+<%- include('../partials/sidebar') %>
+
+<main class="main-content">
+  <div class="roles-container">
+    
+    <!-- Header -->
+    <header class="roles-header">
+      <h1 class="roles-title">
+        <i class="fas fa-user-shield"></i> রোল ম্যানেজমেন্ট
+      </h1>
+      <button type="button" class="btn btn-primary" onclick="openRoleModal()">
+        <i class="fas fa-plus"></i> নতুন রোল
+      </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="roles-hero">
+      <div class="hero-left">
+        <h2 class="hero-title">Role Management</h2>
+        <p class="hero-sub">
+          Create and manage roles, assign permissions and keep your team access organised.
+        </p>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-number" id="rolesCount">0</div>
+            <div class="stat-label">Total Roles</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number" id="tenantCount">-</div>
+            <div class="stat-label">Tenants</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <button class="btn hero-btn" onclick="openRoleModal()">+ Create Role</button>
+      </div>
+    </section>
+
+    <!-- Roles Table Card -->
+    <section class="card modern-card">
+      <div class="card-body modern-card-body">
+        
+        <!-- Top Actions -->
+        <div class="roles-top">
+          <div class="roles-search">
+            <input id="rolesSearch" type="search" placeholder="Search roles, creators or descriptions...">
+          </div>
+          <div class="roles-actions">
+            <button type="button" class="btn btn-outline" onclick="openRoleModal()">+ New Role</button>
+          </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-wrap">
+          <table id="rolesTable" class="table modern-table">
+            <thead>
+              <tr>
+                <th>নাম</th>
+                <th>স্লাগ</th>
+                <th>বিবরণ</th>
+                <th>তৈরিকর</th>
+                <th>টেন্যান্ট</th>
+                <th>Users</th>
+                <th>Permissions</th>
+                <th>তৈরির তারিখ</th>
+                <th>আপডেট</th>
+                <th>অ্যাকশন</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Dynamic rows will be injected here -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+      <div id="roleModal" class="modal">
+    <div class="modal-content">
+      <header class="modal-header">
+        <h3 class="modal-title">নতুন রোল</h3>
+        <span class="close" onclick="closeRoleModal()">&times;</span>
+      </header>
+      <div class="modal-body">
+        <form id="roleForm">
+          <input type="hidden" id="roleId">
+          
+          <div class="form-group">
+            <label for="roleName">নাম *</label>
+            <input id="roleName" type="text" class="form-control" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="roleSlug">স্লাগ *</label>
+            <input id="roleSlug" type="text" class="form-control" required placeholder="উদাহরণ: admin">
+          </div>
+          
+          <div class="form-group">
+            <label for="roleDescription">বিবরণ</label>
+            <textarea id="roleDescription" class="form-control" rows="2"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>পারমিশন</label>
+            <div id="permissionsGrid" class="permissions-grid"></div>
+          </div>
+        </form>
+      </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeRoleModal()">বাতিল</button>
+        <button type="button" class="btn btn-primary" onclick="saveRole()">সেভ করুন</button>
+      </footer>
+    </div>
+  </div>
+  </div>
+
+  <!-- Role Modal -->
+  
+
+  <!-- Delete Confirmation Modal -->
+  <div id="deleteModal" class="modal">
+    <div class="modal-content">
+      <header class="modal-header">
+        <h3>রোল ডিলিট</h3>
+        <button class="close-btn" onclick="closeDeleteModal()">&times;</button>
+      </header>
+      <div class="modal-body">
+        <p>আপনি কি নিশ্চিত যে এই রোলটি ডিলিট করতে চান?</p>
+      </div>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeDeleteModal()">না</button>
+        <button type="button" class="btn btn-danger" onclick="confirmDelete()">হ্যাঁ, ডিলিট করুন</button>
+        <button type="button" id="forceDeleteBtn" class="btn btn-danger" style="display:none;margin-left:8px;" onclick="forceDeleteRole()">ফোর্স ডিলিট (ইউজার রি-অ্যাসাইন)</button>
+      </footer>
+    </div>
+  </div>
+</main>
+
+<%- include('../partials/footer') %>

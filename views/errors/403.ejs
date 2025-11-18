@@ -1,0 +1,26 @@
+<%- include('../partials/header') %>
+<%- include('../partials/sidebar') %>
+
+  <main class="main-content">
+    <section class="error-hero">
+      <div class="error-card modern">
+        <div class="error-left">
+          <div class="error-illustration">🔒</div>
+        </div>
+        <div class="error-right">
+          <h1>অনুমতি নেই</h1>
+          <p class="lead"><%= message || 'দুঃখিত — আপনার এই কাজটি করার অনুমতি নেই। যদি মনে হয় এটি ভুল, প্রশাসকের সাথে যোগাযোগ করুন বা অ্যাক্সেস অনুরোধ করুন।' %></p>
+
+          <div class="error-actions">
+            <button type="button" class="btn btn-primary" onclick="(function(){ if(window.history && window.history.length>1){ window.history.back(); } else { window.location.href = '<%= redirectUrl || '/' %>'; } })()">পেছনে যান</button>
+            <a href="<%= redirectUrl || '/' %>" class="btn btn-outline">যদি না ঘটে, এখানে ক্লিক করুন</a>
+            <a href="/profile" class="btn btn-outline">প্রোফাইল</a>
+          </div>
+
+          <div class="small-note">আপনি যদি লগইন না করে থাকেন, অনুগ্রহ করে লগইন করুন।</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<%- include('../partials/footer') %>

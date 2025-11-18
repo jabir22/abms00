@@ -1,0 +1,157 @@
+
+
+  <%- include('../partials/header') %>
+    <!-- Add CSRF Token -->
+    <meta name="csrf-token" content="<%= csrfToken %>">
+    
+    <!-- =============== LAYOUT =============== -->
+
+
+      <%- include('../partials/sidebar') %>
+
+
+  <main class="main-content">
+    <section class="profile-wrapper">
+      
+      <!-- ================= Profile Header ================= -->
+      <div class="profile-header">
+        <div class="profile-header-bg"></div>
+        <div class="profile-header-content">
+          <div class="profile-photo-section">
+            <div class="profile-photo-area">
+              <img id="profilePhoto" src="<%= user.profile_photo %>" class="profile-img" alt="Profile Photo">
+              <button class="photo-edit-btn" onclick="openModal('profile_photo')" title="প্রোফাইল ছবি পরিবর্তন">
+                <i class="fas fa-camera"></i>
+              </button>
+            </div>
+          </div>
+          
+          <div class="profile-basic-info">
+            <h1 class="profile-name" id="displayName">
+              <i class="fas fa-user-circle"></i> <%= user.name_bn %>
+            </h1>
+            <div class="profile-meta">
+              <div class="meta-item">
+                <i class="fas fa-briefcase"></i>
+                <span class="meta-label">পদবি:</span>
+                <span class="meta-value" id="displayRole" data-role-id="<%= user.role_id %>"><%= user.role %></span>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-phone-alt"></i>
+                <span class="meta-label">মোবাইল:</span>
+                <span class="meta-value" id="displayPhone"><%= user.phone %></span>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-at"></i>
+                <span class="meta-label">ইমেইল:</span>
+                <span class="meta-value" id="displayEmail"><%= user.email %></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= Profile Info Table ================= -->
+      <div class="profile-info-box">
+        <h3><i class="fas fa-id-card"></i> প্রোফাইলের তথ্য</h3>
+        <table class="info-table">
+          <tr>
+            <th>নাম (ইংরেজি)</th>
+            <td id="nameEnCell"><%= user.name_en %></td>
+            <td><button class="edit-btn" onclick="openModal('name_en')"><i class="fas fa-edit"></i></button></td>
+          </tr>
+          <tr>
+            <th>নাম (বাংলা)</th>
+            <td id="nameBnCell"><%= user.name_bn %></td>
+            <td><button class="edit-btn" onclick="openModal('name_bn')"><i class="fas fa-edit"></i></button></td>
+          </tr>
+          <tr>
+            <th>পিতা</th>
+            <td id="fatherCell"><%= user.father_name %></td>
+            <td><button class="edit-btn" onclick="openModal('father_name')"><i class="fas fa-edit"></i></button></td>
+          </tr>
+          <tr>
+            <th>মাতা</th>
+            <td id="motherCell"><%= user.mother_name %></td>
+            <td><button class="edit-btn" onclick="openModal('mother_name')"><i class="fas fa-edit"></i></button></td>
+          </tr>
+          <tr>
+            <th>জন্মতারিখ</th>
+            <td id="dobCell"><%= user.dob %></td>
+            <td><button class="edit-btn" onclick="openModal('dob')"><i class="fas fa-calendar-alt"></i></button></td>
+          </tr>
+          <tr>
+            <th>লিঙ্গ</th>
+            <td id="genderCell"><%= user.gender %></td>
+            <td><button class="edit-btn" onclick="openModal('gender')"><i class="fas fa-venus-mars"></i></button></td>
+          </tr>
+          <tr>
+            <th>ই-মেইল</th>
+            <td id="emailCell"><%= user.email %></td>
+            <td><button class="edit-btn" onclick="openModal('email')"><i class="fas fa-envelope"></i></button></td>
+          </tr>
+          <tr>
+            <th>মোবাইল</th>
+            <td id="phoneCell"><%= user.phone %></td>
+            <td><button class="edit-btn" onclick="openModal('phone')"><i class="fas fa-phone"></i></button></td>
+          </tr>
+        </table>
+
+        <div class="center">
+          <button class="password-btn" onclick="openModal('password')"><i class="fas fa-lock"></i> পাসওয়ার্ড পরিবর্তন</button>
+        </div>
+      </div>
+
+      <!-- ================= Addresses ================= -->
+      <div class="address-section">
+        <div class="address-card">
+          <h3><i class="fas fa-map-marker-alt"></i> স্থায়ী ঠিকানা</h3>
+          <p id="permanentAddress"><%= user.permanent_address %></p>
+          <button class="edit-btn" onclick="openModal('permanent_address')"><i class="fas fa-edit"></i></button>
+        </div>
+        <div class="address-card">
+          <h3><i class="fas fa-map-marker-alt"></i> বর্তমান ঠিকানা</h3>
+          <p id="currentAddress"><%= user.current_address %></p>
+          <button class="edit-btn" onclick="openModal('current_address')"><i class="fas fa-edit"></i></button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ================= Modal ================= -->
+    <div id="modalOverlay" class="modal-overlay" onclick="closeModal()"></div>
+    <div id="genericModal" class="modal-box">
+      <div class="modal-header">
+        <h3 id="modalTitle"><i class="fas fa-edit"></i> Edit</h3>
+        <button class="modal-close" onclick="closeModal()"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="modal-body" id="modalBody">
+        <!-- Example input groups with icons -->
+        <div class="modal-input-group">
+          <label for="modalInput"><i class="fas fa-user"></i> নাম</label>
+          <input type="text" id="modalInput" placeholder="নতুন নাম লিখুন">
+        </div>
+        <div class="modal-input-group">
+          <label for="modalEmail"><i class="fas fa-envelope"></i> ই-মেইল</label>
+          <input type="email" id="modalEmail" placeholder="নতুন ই-মেইল লিখুন">
+        </div>
+        <div class="modal-input-group">
+          <label for="modalPhone"><i class="fas fa-phone"></i> মোবাইল</label>
+          <input type="text" id="modalPhone" placeholder="নতুন মোবাইল নাম্বার লিখুন">
+        </div>
+        <div class="modal-input-group">
+          <label for="modalPassword"><i class="fas fa-lock"></i> পাসওয়ার্ড</label>
+          <input type="password" id="modalPassword" placeholder="নতুন পাসওয়ার্ড লিখুন">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="modal-cancel" onclick="closeModal()"><i class="fas fa-times-circle"></i> Cancel</button>
+        <button class="modal-save" onclick="saveModal()"><i class="fas fa-check-circle"></i> Save</button>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- ================= Scripts ================= -->
+  <%- include('../partials/footer') %>

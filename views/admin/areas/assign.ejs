@@ -1,0 +1,186 @@
+<%- include('../../partials/header') %>
+    <%- include('../../partials/sidebar') %>
+
+        <link rel="stylesheet" href="/css/areas.css">
+
+        <div class="main-content">
+            <div class="areas-header">
+                <div class="header-content">
+                    <div class="header-title">
+                        <h1><i class="fas fa-users-between-lines"></i> Area - User Assignment</h1>
+                        <p class="subtitle">Assign users to areas and manage assignments</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="assignment-container">
+                <div class="assignment-panel">
+                    <div class="form-group">
+                        <label for="assignAreaSelect">Select Area</label>
+                        <select id="assignAreaSelect">
+                            <option value="">-- Select area --</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="assignUserSelect">Select User to Assign</label>
+                        <select id="assignUserSelect">
+                            <option value="">-- Select user --</option>
+                        </select>
+                    </div>
+
+                    <div class="form-actions">
+                        <button id="assignBtn" class="btn btn-primary">Assign User</button>
+                    </div>
+                </div>
+
+                <div class="assignment-list">
+                    <h3>Assigned Users</h3>
+                    <div id="assignedUsersArea">
+                        <p>Select an area to view assigned users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('../../partials/footer') %>
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                // Simple assignment page client logic
+                $(function () {
+                    const csrfToken = '<%= csrfToken %>';
+                    const $areaSelect = $('#assignAreaSelect');
+                    const $userSelect = $('#assignUserSelect');
+                    const $assigned = $('#assignedUsersArea');
+
+                    function showToast(message, type = 'success') {
+                        alert(message);
+                    }
+
+                    function loadAreas() {
+                        $.getJSON('/api/areas/all').done(resp => {
+                            if (resp.success) {
+                                $areaSelect.empty().append('<option value="">-- Select area --</option>');
+                                resp.data.forEach(a => {
+                                    $areaSelect.append(`<option value="${a.id}">${a.name_bn} (${a.name_en})</option>`);
+                                });
+                            }
+                        }).fail(() => { showToast('Failed loading areas', 'error'); });
+                    }
+
+                    function loadUsers() {
+                        // Try API path first, then fallback to /users
+                        $.getJSON('/api/users/all').done(resp => {
+                            if (resp && resp.success && Array.isArray(resp.data)) {
+                                populateUsers(resp.data);
+                            } else {
+                                // fallback
+                                $.getJSON('/users').done(resp2 => {
+                                    if (resp2 && resp2.success && Array.isArray(resp2.users)) populateUsers(resp2.users);
+                                }).fail(() => { showToast('Failed loading users', 'error'); });
+                            }
+                        }).fail(() => {
+                            // fallback to /users
+                            $.getJSON('/users').done(resp2 => {
+                                if (resp2 && resp2.success && Array.isArray(resp2.users)) populateUsers(resp2.users);
+                            }).fail(() => { showToast('Failed loading users', 'error'); });
+                        });
+                    }
+
+                    function populateUsers(list) {
+                        $userSelect.empty().append('<option value="">-- Select user --</option>');
+                        list.forEach(u => {
+                            // normalize fields: some endpoints return {name, email}; others {name_en}
+                            const display = (u.name || u.name_en || u.name_bn || (u.email || u.phone) || 'User');
+                            $userSelect.append(`<option value="${u.id}">${display}</option>`);
+                        });
+                    }
+
+                    function loadAssigned(areaId) {
+                        if (!areaId) {
+                            $assigned.html('<p>Select an area to view assigned users.</p>');
+                            return;
+                        }
+                        $assigned.html('<p>Loading...</p>');
+                        $.getJSON(`/admin/areas/area/${areaId}/users`).done(() => { }); // ensure route exists
+                        $.getJSON(`/admin/areas/area/${areaId}/users`).fail(() => { });
+                        // The controller exposes API at /admin/areas/area/:areaId/users mapping to getAreaUsers route? In routes the GET is '/area/:areaId/users' mounted under /admin/areas, so call that.
+                        $.getJSON(`/admin/areas/area/${areaId}/users`).done(resp => {
+                            if (resp.success) {
+                                if (!resp.data || resp.data.length === 0) {
+                                    $assigned.html('<p>No users assigned to this area.</p>');
+                                    return;
+                                }
+                                const list = $('<ul class="assigned-list"></ul>');
+                                resp.data.forEach(u => {
+                                    const item = $(`<li data-userid="${u.id}">${u.name || u.email || u.phone} <button class="btn btn-sm btn-danger remove-btn">Remove</button></li>`);
+                                    item.find('.remove-btn').click(() => removeAssignment(areaId, u.id));
+                                    list.append(item);
+                                });
+                                $assigned.empty().append(list);
+                            } else {
+                                $assigned.html('<p>Failed to load assigned users.</p>');
+                            }
+                        }).fail(err => {
+                            console.error(err);
+                            $assigned.html('<p>Error loading assigned users.</p>');
+                        });
+                    }
+
+                    function assignUser(areaId, userId) {
+                        $.ajax({
+                            url: '/admin/areas/assign-user',
+                            type: 'POST',
+                            contentType: 'application/json',
+                            headers: { 'X-CSRF-Token': csrfToken },
+                            data: JSON.stringify({ areaId: parseInt(areaId), userId: parseInt(userId), _csrf: csrfToken })
+                        }).done(resp => {
+                            if (resp.success) {
+                                showToast(resp.message || 'Assigned');
+                                loadAssigned(areaId);
+                            } else {
+                                showToast(resp.message || 'Failed', 'error');
+                            }
+                        }).fail(err => {
+                            console.error(err);
+                            showToast('Failed to assign user', 'error');
+                        });
+                    }
+
+                    function removeAssignment(areaId, userId) {
+                        if (!confirm('Confirm remove user from area?')) return;
+                        $.ajax({
+                            url: '/admin/areas/remove-user',
+                            type: 'POST',
+                            contentType: 'application/json',
+                            headers: { 'X-CSRF-Token': csrfToken },
+                            data: JSON.stringify({ areaId: parseInt(areaId), userId: parseInt(userId), _csrf: csrfToken })
+                        }).done(resp => {
+                            if (resp.success) {
+                                showToast(resp.message || 'Removed');
+                                loadAssigned(areaId);
+                            } else {
+                                showToast(resp.message || 'Failed', 'error');
+                            }
+                        }).fail(err => {
+                            console.error(err);
+                            showToast('Failed to remove user', 'error');
+                        });
+                    }
+
+                    // Event handlers
+                    $areaSelect.on('change', function () { loadAssigned($(this).val()); });
+                    $('#assignBtn').click(function () {
+                        const areaId = $areaSelect.val();
+                        const userId = $userSelect.val();
+                        if (!areaId) { alert('Please select an area'); return; }
+                        if (!userId) { alert('Please select a user'); return; }
+                        assignUser(areaId, userId);
+                    });
+
+                    // initial load
+                    loadAreas();
+                    loadUsers();
+                });
+            </script>

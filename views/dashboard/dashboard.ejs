@@ -1,0 +1,147 @@
+
+
+
+  <%- include('../partials/header') %>
+
+    <!-- =============== LAYOUT =============== -->
+
+
+      <%- include('../partials/sidebar') %>
+
+<main class="main-content">
+          <h1 class="page-title"><i class="fa-solid fa-gauge-high"></i> ব্যবসা ড্যাশবোর্ড</h1>
+
+          <!-- ======= SUMMARY CARDS ======= -->
+          <div class="cards">
+            <div class="card blue">
+              <h3><i class="fa-solid fa-sack-dollar"></i> মোট রাজস্ব</h3>
+              <p>৳ ৪,২০,০০০</p>
+            </div>
+            <div class="card green">
+              <h3><i class="fa-solid fa-arrow-trend-up"></i> মোট বিক্রয়</h3>
+              <p>৳ ৩,১০,০০০</p>
+            </div>
+            <div class="card orange">
+              <h3><i class="fa-solid fa-arrow-trend-down"></i> মোট ক্রয়</h3>
+              <p>৳ ২,১৫,০০০</p>
+            </div>
+            <div class="card purple">
+              <h3><i class="fa-solid fa-coins"></i> মোট লাভ</h3>
+              <p>৳ ৯৫,০০০</p>
+            </div>
+          </div>
+
+          <!-- ======= OVERVIEW ======= -->
+          <section class="section">
+            <h2><i class="fa-solid fa-layer-group"></i> ওভারভিউ</h2>
+            <div class="overview-grid">
+              <div class="overview-box">
+                <span>উপলব্ধ ব্যালেন্স</span>
+                <h3>৳ ৪,৮৭,১৩৬</h3>
+              </div>
+              <div class="overview-box">
+                <span>ব্যবসার মূলধন</span>
+                <h3>৳ ৩৬,০০,০০০</h3>
+              </div>
+              <div class="overview-box">
+                <span>সক্রিয় গ্রাহক</span>
+                <h3>২৮১</h3>
+              </div>
+              <div class="overview-box">
+                <span>মোট ব্যবহারকারী</span>
+                <h3>১০</h3>
+              </div>
+            </div>
+          </section>
+
+          <!-- ======= REPORTS ======= -->
+          <section class="section">
+            <h2><i class="fa-solid fa-chart-bar"></i> রিপোর্টস</h2>
+            <div class="report-grid">
+              <a href="#"><i class="fa-solid fa-user"></i> ইউজার রিপোর্ট</a>
+              <a href="#"><i class="fa-solid fa-file-lines"></i> সেটেলমেন্ট রিপোর্ট</a>
+              <a href="#"><i class="fa-solid fa-calendar-day"></i> আজকের রিপোর্ট</a>
+              <a href="#"><i class="fa-solid fa-hand-holding-dollar"></i> আদায় রিপোর্ট</a>
+            </div>
+          </section>
+
+          <!-- ======= PANEL REPORT ======= -->
+          <section class="section">
+            <h2><i class="fa-solid fa-clipboard-list"></i> প্যানেল রিপোর্ট</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>বিভাগ</th>
+                  <th>সংখ্যা</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ইউজার</td>
+                  <td>১০</td>
+                </tr>
+                <tr>
+                  <td>বিনিয়োগকারী</td>
+                  <td>২</td>
+                </tr>
+                <tr>
+                  <td>ম্যানেজার</td>
+                  <td>৩</td>
+                </tr>
+                <tr>
+                  <td>মাঠকর্মী</td>
+                  <td>৫</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <!-- ======= LAST TRANSACTIONS ======= -->
+          <section class="section">
+            <h2><i class="fa-solid fa-clock-rotate-left"></i> সর্বশেষ লেনদেন</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>গ্রাহক</th>
+                  <th>তারিখ</th>
+                  <th>ধরন</th>
+                  <th>পরিমাণ</th>
+                  <th>সত্যায়নকারী</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>মোঃ হামিদুল ইসলাম</td>
+                  <td>০৪ নভেম্বর ২০২৫</td>
+                  <td>ঋণ</td>
+                  <td class="text-green">৳ ২৪০</td>
+                  <td>নাজমুল হাসান</td>
+                </tr>
+                <tr>
+                  <td>মোঃ হিরু মিয়া</td>
+                  <td>০৪ নভেম্বর ২০২৫</td>
+                  <td>সঞ্চয়</td>
+                  <td class="text-green">৳ ১০</td>
+                  <td>নাজমুল হাসান</td>
+                </tr>
+                <tr>
+                  <td>মোঃ মাহাবুর</td>
+                  <td>০৪ নভেম্বর ২০২৫</td>
+                  <td>ঋণ</td>
+                  <td class="text-green">৳ ২৪০</td>
+                  <td>নাজমুল হাসান</td>
+                </tr>
+                <tr>
+                  <td>মোঃ শিমুল</td>
+                  <td>০৪ নভেম্বর ২০২৫</td>
+                  <td>সঞ্চয়</td>
+                  <td class="text-green">৳ ১০</td>
+                  <td>নাজমুল হাসান</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </main>
+
+          
+  <%- include('../partials/footer') %>

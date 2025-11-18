@@ -1,0 +1,20 @@
+-- ✅ অনুমোদিত পারমিশনের রেজিস্ট্রি ইনসার্ট
+INSERT IGNORE INTO permissions_catalog (name, description) VALUES
+('view_profile', 'Can view own profile'),
+('edit_profile', 'Can edit own profile'),
+('view_all_profiles', 'Can view all profiles'),
+('create_role', 'Can create roles'),
+('edit_role', 'Can edit roles'),
+('delete_role', 'Can delete roles'),
+('assign_role', 'Can assign roles'),
+('create_user', 'Can create users'),
+('edit_user', 'Can edit users'),
+('delete_user', 'Can delete users'),
+('view_users', 'Can view all users'),
+('assign_permission', 'Can assign permissions'),
+('manage_settings', 'Can manage system settings'),
+('view_reports', 'Can view reports'),
+('export_data', 'Can export data'),
+('manage_content', 'Can manage content'),
+('view_logs', 'Can view system logs'),
+('manage_system', 'Can manage system');
